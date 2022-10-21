@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Footer from "../components/shared/Footer";
+import Navbar from "../components/shared/Navbar";
 
 export default function Home() {
   return (
@@ -11,12 +13,14 @@ export default function Home() {
 
       {/* header */}
       <header>
-        <h2 className="text-green-500 text-2xl text-center font-bold mt-5">Hello world</h2>
+        <Navbar />
       </header>
 
       <main>{/* main part */}</main>
 
-      <footer>{/* footer part */}</footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
