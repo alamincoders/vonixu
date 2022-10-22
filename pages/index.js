@@ -1,7 +1,10 @@
 import Head from "next/head";
+import Banner from "../components/Banner";
 import BrandBanner from "../components/BrandBanner";
+import Featured from "../components/Featured";
 import Footer from "../components/shared/Footer";
 import Navbar from "../components/shared/Navbar";
+import WhyVonixu from "../components/WhyVonixu";
 
 export default function Home() {
   return (
@@ -19,11 +22,15 @@ export default function Home() {
 
       <main className="relative pt-20">
         {/* all components */}
+        <Banner/>
+        <Featured/>
+        <WhyVonixu/>
         <BrandBanner />
       </main>
 
       <footer>
         <Footer />
+
       </footer>
     </div>
   );
