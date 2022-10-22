@@ -46,7 +46,7 @@ const Banner = () => {
                 <Image className="w-full h-full" src={best} alt="clutch" />
               </div>
             </div>
-            <div className="bg-secondary rounded-xl  p-2">
+            <div className="bg-secondary rounded-xl mt-5 p-2">
               <iframe
                 className=" min-w-full lg:min-w-[500px] min-h-[200px] lg:min-h-[370px]  rounded-xl"
                 src="https://www.youtube.com/embed/A_AC9yn2leA"
