@@ -23,16 +23,15 @@ export default function Home() {
 
       <main className="relative pt-20">
         {/* all components */}
-        <Banner/>
-        <Featured/>
-        <WhyVonixu/>
-        <GrowBusiness/>
+        <Banner />
+        <Featured />
+        <WhyVonixu />
+        <GrowBusiness />
         <BrandBanner />
       </main>
 
       <footer>
         <Footer />
-
       </footer>
     </div>
   );

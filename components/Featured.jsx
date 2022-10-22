@@ -11,7 +11,7 @@ import cityFM  from '../assets/featured/cityFM.png'
 
 const Featured = () => {
   return (
-    <section className=" bg-[#022f6a18] my-10  ">
+    <section className=" bg-gray-50 my-10  ">
       <div className="   py-10 container  ">
         <h1 className="text-[30px] ">
           <span className="text-primary">Featured</span>{" "}

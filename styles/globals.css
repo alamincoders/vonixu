@@ -49,3 +49,19 @@ a {
 .bg-default-color {
   background-color: #207af4;
 }
+
+
+/*  */
+
+.bg_shadow{
+  background-image: url("../assets/shadow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50%;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
