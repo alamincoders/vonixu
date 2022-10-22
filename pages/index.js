@@ -2,6 +2,7 @@ import Head from "next/head";
 import Banner from "../components/Banner";
 import BrandBanner from "../components/BrandBanner";
 import Featured from "../components/Featured";
+import GrowBusiness from "../components/GrowBusiness";
 import Footer from "../components/shared/Footer";
 import Navbar from "../components/shared/Navbar";
 import WhyVonixu from "../components/WhyVonixu";
@@ -25,6 +26,7 @@ export default function Home() {
         <Banner/>
         <Featured/>
         <WhyVonixu/>
+        <GrowBusiness/>
         <BrandBanner />
       </main>
 
