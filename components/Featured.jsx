@@ -13,7 +13,7 @@ const Featured = () => {
   return (
     <section className=" bg-gray-50 my-10  ">
       <div className="   py-10 container  ">
-        <h1 className="text-[30px] ">
+        <h1 className="text-[30px]  font-bold">
           <span className="text-primary">Featured</span>{" "}
           <span className="text-secondary font-bold ">In</span>
         </h1>
