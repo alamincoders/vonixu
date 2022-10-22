@@ -50,10 +50,9 @@ a {
   background-color: #207af4;
 }
 
-
 /*  */
 
-.bg_shadow{
+.bg_shadow {
   background-image: url("../assets/shadow.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -64,4 +63,12 @@ a {
   top: 0;
   left: 0;
   z-index: -100;
+}
+
+/*  */
+
+@layer components {
+  .primary_btn {
+    @apply hover:bg-white outline-double hover:text-[#022f6a] text-sm lg:text-xl px-8 py-3.5 border-0 rounded-lg hover:shadow-2xl hover:shadow-red-300 font-medium  bg-[#022f6a] text-white duration-500 transition ease-in-out;
+  }
 }

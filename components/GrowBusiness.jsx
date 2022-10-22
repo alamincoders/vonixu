@@ -18,9 +18,7 @@ const GrowBusiness = () => {
             customers into advocates of your brand. Today Bizcope is a leading SEO service provider company in Bangladesh because of the results we
             provide our clients day-in and day-out.
           </p>
-          <button className="hover:bg-white w-2/6 hover:text-[#022f6a] text-sm lg:text-xl px-8 py-3.5 border-0 rounded-lg hover:shadow-2xl hover:shadow-red-200 ring-1  font-medium  bg-[#022f6a] text-white duration-300 transition ease-in-out ">
-            Discover more
-          </button>
+          <button className="primary_btn w-[300px]">Discover more</button>
         </div>
         <div className="w-5/6  rounded-tr-3xl p-3 mx-auto">
           <Image src={graph} alt="graph" />

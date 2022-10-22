@@ -23,7 +23,7 @@ const Banner = () => {
                 With a decade of experience in the Digital industry, <br /> we proved that the combination of strategic thinking <br /> and expertise
                 will create a fascinating digital <br /> experience.
               </p>
-              <button className="hover:bg-white outline-double hover:text-[#022f6a] text-sm lg:text-xl px-8 py-3.5 border-0 rounded-lg hover:shadow-2xl hover:shadow-red-300 font-medium  bg-[#022f6a] text-white duration-500 transition ease-in-out ">
+              <button className="primary_btn">
                 Talk With Our Award-Winning SEO Agency
               </button>
             </div>
