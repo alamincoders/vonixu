@@ -1,19 +1,24 @@
 import Image from "next/image";
-import clutch from '../assets/brand/clucth.png'
-import google from '../assets/brand/google.png'
-import goodfirms from '../assets/brand/goodfirms.png'
+import clutch from "../assets/brand/clucth.png";
+import goodfirms from "../assets/brand/goodfirms.png";
+import best from "../assets/brand/best.png";
 
 const Banner = () => {
   return (
     <>
       <section className="container py-10">
-        <div className="flex flex-col md:flex-row lg:flex-row   justify-between items-center ">
-          <div>
-            <h1 className="text-[40px] pb-10 ">
-              Data Driven Best <br /> Digital Marketing Solution
+        <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center md:items-center lg:items-end">
+          <div className="space-y-2">
+            <h1 className="text-[35px] pb-10 font-bold text-primary uppercase">
+              Data Driven{" "}
+              <span className="text-secondary">
+                Best <br /> Digital Marketing
+              </span>{" "}
+              Solution
+            <div className="w-20 h-1 bg-secondary border-0 rounded-2xl mt-3"></div>
             </h1>
             <div className=" hidden md:block lg:block  ">
-              <p className=" text-[20px] ">
+              <p className=" text-[20px] mb-5">
                 With a decade of experience in the Digital industry, <br /> we
                 proved that the combination of strategic thinking <br /> and
                 expertise will create a fascinating digital <br /> experience.
@@ -24,14 +29,20 @@ const Banner = () => {
             </div>
           </div>
           <div>
-            <div className=" hidden md:flex lg:flex  gap-x-20 justify-center pb-8  ">
-              <Image width={70} height={70} src={clutch} alt="clutch" />
-              <Image width={70} height={70} src={google} alt="google" />
-              <Image width={70} height={70} src={goodfirms} alt="goodfirms" />
+            <div className=" hidden md:flex lg:flex  gap-x-20 justify-center  mb-2 ">
+              <div className="w-[60px] h-[60px]">
+                <Image className="w-full h-full" src={clutch} alt="clutch" />
+              </div>
+              <div className="w-[70px] h-[70px]">
+                <Image className="w-full h-full" src={goodfirms} alt="clutch" />
+              </div>
+              <div className="w-[70px] h-[70px]">
+                <Image className="w-full h-full" src={best} alt="clutch" />
+              </div>
             </div>
-            <div>
+            <div className="bg-secondary rounded-xl  p-2">
               <iframe
-                className=" w-full h-[200px] "
+                className=" min-w-full lg:min-w-[500px] min-h-[200px] lg:min-h-[370px]  rounded-xl"
                 src="https://www.youtube.com/embed/A_AC9yn2leA"
                 title="YouTube video player"
                 frameBorder="0"
