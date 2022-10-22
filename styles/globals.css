@@ -28,3 +28,24 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-primary {
+  color: #022f6a;
+}
+.bg-primary {
+  background-color: #022f6a;
+}
+/*  */
+.text-secondary {
+  color: #fc8121;
+}
+.bg-secondary {
+  background-color: #fc8121;
+}
+/*  */
+.text-default-color {
+  color: #207af4;
+}
+.bg-default-color {
+  background-color: #207af4;
+}

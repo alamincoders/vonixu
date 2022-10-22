@@ -16,7 +16,7 @@ export default function Home() {
         <Navbar />
       </header>
 
-      <main>{/* main part */}</main>
+      <main className="container">{/* all components */}</main>
 
       <footer>
         <Footer />
