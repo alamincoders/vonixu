@@ -17,7 +17,7 @@ export default function Home() {
         <Navbar />
       </header>
 
-      <main className="container relative pt-20">
+      <main className="relative pt-20">
         {/* all components */}
         <BrandBanner />
       </main>
