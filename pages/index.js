@@ -1,4 +1,5 @@
 import Head from "next/head";
+import BrandBanner from "../components/BrandBanner";
 import Footer from "../components/shared/Footer";
 import Navbar from "../components/shared/Navbar";
 
@@ -16,7 +17,10 @@ export default function Home() {
         <Navbar />
       </header>
 
-      <main className="container">{/* all components */}</main>
+      <main className="container relative pt-20">
+        {/* all components */}
+        <BrandBanner />
+      </main>
 
       <footer>
         <Footer />
