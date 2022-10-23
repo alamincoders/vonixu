@@ -10,7 +10,7 @@ const Blog = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>Blog</main>
+      <main className="relative pt-24">Blog</main>
     </>
   );
 };

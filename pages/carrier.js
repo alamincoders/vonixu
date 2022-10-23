@@ -10,7 +10,7 @@ const Carrier = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>Carrier</main>
+      <main className="relative pt-24">Carrier</main>
     </>
   );
 };

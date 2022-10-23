@@ -10,7 +10,7 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>About</main>
+      <main className="relative pt-24">About</main>
     </>
   );
 };

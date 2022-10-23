@@ -10,7 +10,7 @@ const Contact = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>Contact</main>
+      <main className="relative pt-24">Contact</main>
     </>
   );
 };
