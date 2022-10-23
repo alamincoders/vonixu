@@ -25,10 +25,6 @@ function MyApp({ Component, pageProps }) {
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
-        <link
-          href="https://unpkg.com/swiper/swiper-bundle.min.css"
-          rel="stylesheet"
-        />
       </Head>
 
       <Layout>

@@ -26,38 +26,47 @@ export const FeaturedData = [
 export const OurServicesData = [
   {
     name: "Digital Marketing",
+    id: 1,
     description: 'Digital marketing creates opportunities for small and medium business enterprises to compete with larger business entities.'
   },
   {
     name: "Digital Marketing",
+    id: 2,
     description: 'Digital marketing creates opportunities for small and medium business enterprises to compete with larger business entities.'
   },
   {
     name: "Digital Marketing",
+    id: 3,
     description: 'Digital marketing creates opportunities for small and medium business enterprises to compete with larger business entities.'
   },
   {
     name: "Digital Marketing",
+    id: 4,
     description: 'Digital marketing creates opportunities for small and medium business enterprises to compete with larger business entities.'
   },
   {
     name: "Digital Marketing",
+    id: 5,
     description: 'Digital marketing creates opportunities for small and medium business enterprises to compete with larger business entities.'
   },
   {
     name: "Digital Marketing",
+    id: 6,
     description: 'Digital marketing creates opportunities for small and medium business enterprises to compete with larger business entities.'
   },
   {
     name: "Digital Marketing",
+    id: 7,
     description: 'Digital marketing creates opportunities for small and medium business enterprises to compete with larger business entities.'
   },
   {
     name: "Digital Marketing",
+    id: 8,
     description: 'Digital marketing creates opportunities for small and medium business enterprises to compete with larger business entities.'
   },
   {
     name: "Digital Marketing",
+    id: 9,
     description: 'Digital marketing creates opportunities for small and medium business enterprises to compete with larger business entities.'
   },
 ]
