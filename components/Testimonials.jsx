@@ -10,6 +10,11 @@ const Testimonials = () => {
       </h1>
 
       <div className="w-[240px] h-1 bg-primary border-0 rounded-2xl "></div>
+
+
+    
+
+
     </section>
   );
 };
