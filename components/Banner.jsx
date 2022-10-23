@@ -20,8 +20,9 @@ const Banner = () => {
             <div className="bg_shadow hidden md:block lg:block"></div>
             <div className=" hidden md:block lg:block  ">
               <p className=" text-[20px] mb-5">
-                With a decade of experience in the Digital industry, <br /> we proved that the combination of strategic thinking <br /> and expertise
-                will create a fascinating digital <br /> experience.
+                With a decade of experience in the Digital industry, <br /> we
+                proved that the combination of strategic thinking <br /> and
+                expertise will create a fascinating digital <br /> experience.
               </p>
               <button className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-primary transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group">
                 <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-primary group-hover:h-full"></span>
@@ -66,8 +67,9 @@ const Banner = () => {
             </div>
             <div className=" block md:hidden lg:hidden  mt-5 md:mt-2 lg:mt-0">
               <p className=" text-[20px] ">
-                With a decade of experience in the Digital industry, <br /> we proved that the combination of strategic thinking <br /> and expertise
-                will create a fascinating digital <br /> experience.
+                With a decade of experience in the Digital industry, <br /> we
+                proved that the combination of strategic thinking <br /> and
+                expertise will create a fascinating digital <br /> experience.
               </p>
               <button className="bg-primary px-[20px] py-[13px] rounded-md text-white font-semibold mt-10 hover:bg-[#0c2341] duration-200 ease-in-out  ">
                 Talk With Our Award-Winning SEO Agency
