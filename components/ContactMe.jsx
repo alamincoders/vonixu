@@ -2,121 +2,100 @@
 
 const ContactMe = () => {
   return (
-    <section class="bg-gray-100 container py-10 ">
-      <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
-          <div class="lg:col-span-2 lg:py-12">
-            <p class="max-w-xl text-lg">
-              At the same time, the fact that we are wholly owned and totally
-              independent from manufacturer and other group control gives you
-              confidence that we will only recommend what is right for you.
-            </p>
+    <section class="text-gray-600  container py-10 body-font relative">
+      <h1 className="text-4xl font-bold">
+        <span className="text-primary">Get In</span>{" "}
+        <span className="text-secondary ">Touch</span>
+      </h1>
 
-            <div class="mt-8">
-              <a href="" class="text-2xl font-bold text-pink-600">
-                0151 475 4450
-              </a>
+      <div className="w-[108px] h-1 bg-primary border-0 rounded-2xl "></div>
 
-              <address class="mt-2 not-italic">
-                282 Kevin Brook, Imogeneborough, CA 58517
-              </address>
+      <div class=" pt-14 mx-auto flex sm:flex-nowrap flex-wrap">
+
+        <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          <iframe
+            width="100%"
+            height="100%"
+            class="absolute inset-0"
+            frameborder="0"
+            title="map"
+            marginheight="0"
+            marginwidth="0"
+            scrolling="no"
+            src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+          ></iframe>
+          <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+            <div class="lg:w-1/2 px-6">
+              <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">
+                ADDRESS
+              </h2>
+              <p class="mt-1">
+                Photo booth tattooed prism, portland taiyaki hoodie neutra
+                typewriter
+              </p>
+            </div>
+            <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">
+                EMAIL
+              </h2>
+              <a class="text-indigo-500 leading-relaxed">example@email.com</a>
+              <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
+                PHONE
+              </h2>
+              <p class="leading-relaxed">123-456-7890</p>
             </div>
           </div>
-
-          <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
-            <form action="" class="space-y-4">
-              <div>
-                <label class="sr-only" for="name">
-                  Name
-                </label>
-                <input
-                  class="w-full rounded-lg border-gray-200 p-3 text-sm"
-                  placeholder="Name"
-                  type="text"
-                  id="name"
-                />
-              </div>
-
-              <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                <div>
-                  <label class="sr-only" for="email">
-                    Email
-                  </label>
-                  <input
-                    class="w-full rounded-lg border-gray-200 p-3 text-sm"
-                    placeholder="Email address"
-                    type="email"
-                    id="email"
-                  />
-                </div>
-
-                <div>
-                  <label class="sr-only" for="phone">
-                    Phone
-                  </label>
-                  <input
-                    class="w-full rounded-lg border-gray-200 p-3 text-sm"
-                    placeholder="Phone Number"
-                    type="tel"
-                    id="phone"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label class="sr-only" for="message">
-                  Message
-                </label>
-                <textarea
-                  class="w-full rounded-lg border-gray-200 p-3 text-sm"
-                  placeholder="Message"
-                  rows="8"
-                  id="message"
-                ></textarea>
-              </div>
-
-              <div class="mt-4">
-                <button className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-primary transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group">
-                  <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-primary group-hover:h-full"></span>
-                  <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
-                    <svg
-                      className="w-5 h-5 text-secondary"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span className="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
-                    <svg
-                      className="w-5 h-5 text-secondary"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span className="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">
-                    Send Message
-                  </span>
-                </button>
-              </div>
-            </form>
+        </div>
+        
+        
+        <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
+            Contact Me
+          </h2>
+          <p class="leading-relaxed mb-5 text-gray-600">
+            Post-ironic portland shabby chic echo park, banjo fashion axe
+          </p>
+          <div class="relative mb-4">
+            <label for="name" class="leading-7 text-sm text-gray-600">
+              Name
+            </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            />
           </div>
+          <div class="relative mb-4">
+            <label for="email" class="leading-7 text-sm text-gray-600">
+              Email
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            />
+          </div>
+          <div class="relative mb-4">
+            <label for="message" class="leading-7 text-sm text-gray-600">
+              Message
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+            ></textarea>
+          </div>
+
+          <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            Message
+          </button>
+
+          <p class="text-xs text-gray-500 mt-3">
+            Chicharrones blog helvetica normcore iceland tousled brook viral
+            artisan.
+          </p>
         </div>
       </div>
     </section>
