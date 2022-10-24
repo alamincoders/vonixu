@@ -53,20 +53,5 @@ export const OurServicesData = [
     name: "Digital Marketing",
     id: 6,
     description: 'Digital marketing creates opportunities for small and medium business enterprises to compete with larger business entities.'
-  },
-  {
-    name: "Digital Marketing",
-    id: 7,
-    description: 'Digital marketing creates opportunities for small and medium business enterprises to compete with larger business entities.'
-  },
-  {
-    name: "Digital Marketing",
-    id: 8,
-    description: 'Digital marketing creates opportunities for small and medium business enterprises to compete with larger business entities.'
-  },
-  {
-    name: "Digital Marketing",
-    id: 9,
-    description: 'Digital marketing creates opportunities for small and medium business enterprises to compete with larger business entities.'
-  },
+  }
 ]

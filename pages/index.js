@@ -1,6 +1,8 @@
 import Banner from "../components/Banner";
 import BrandBanner from "../components/BrandBanner";
+import ContactMe from "../components/ContactMe";
 import Featured from "../components/Featured";
+import FreeSession from "../components/FreeSession";
 import GrowBusiness from "../components/GrowBusiness";
 import OurServices from "../components/OurServices";
 import Testimonials from "../components/Testimonials";
@@ -18,6 +20,8 @@ export default function Home() {
         <BrandBanner />
         <OurServices/>
         <Testimonials/>
+        <FreeSession/>
+        <ContactMe/>
       </main>
     </div>
   );
