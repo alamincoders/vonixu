@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import WebConversation from "../components/WebConversation";
 
 const Carrier = () => {
   return (
@@ -10,7 +11,9 @@ const Carrier = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="relative pt-24">Carrier</main>
+      <main className="relative pt-24"> 
+        <WebConversation/>  
+       </main>
     </>
   );
 };
