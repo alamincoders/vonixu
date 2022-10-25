@@ -29,10 +29,10 @@ const Navbar = () => {
           </li>
           <NavLinks />
           <li className="inline-flex space-x-5">
-            <Link href="/contact">
+            <Link href="/blog">
               <li className="text-[16px] font-medium text-primary cursor-pointer">Blog</li>
             </Link>
-            <Link href="/contact">
+            <Link href="/carrier">
               <li className="text-[16px] font-medium text-primary cursor-pointer">Carrier</li>
             </Link>
             <Link href="/contact">
@@ -73,17 +73,17 @@ const Navbar = () => {
           </li>
           <NavLinks />
           <li>
-            <Link href="/contact">
+            <Link href="/blog">
               <li className="text-[16px] font-medium text-primary cursor-pointer">Blog</li>
             </Link>
-            <Link href="/contact">
+            <Link href="/carrier">
               <li className="text-[16px] font-medium text-primary cursor-pointer">Carrier</li>
             </Link>
             <Link href="/contact">
               <li className="text-[16px] font-medium text-primary cursor-pointer">Contact</li>
             </Link>
           </li>
-          <div className="py-5">
+          {/* <div className="py-5">
             <button className="relative inline-flex w-[90%] mx-auto items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-primary transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group">
               <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-primary group-hover:h-full"></span>
               <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
@@ -98,7 +98,7 @@ const Navbar = () => {
               </span>
               <span className="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">Get A Proposal</span>
             </button>
-          </div>
+          </div> */}
         </ul>
       </div>
     </nav>
