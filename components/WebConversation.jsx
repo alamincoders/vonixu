@@ -25,7 +25,7 @@ const WebConversation = () => {
             award-winning web design and development company that can deliver
             the result!
           </p>
-          <Button title="Get in touch" />
+          <Button title="Build a Website" />
         </div>
         <div className="w-5/6 bg-gray-50 rounded-tl-[40px] p-6 mx-auto">
           <Image src={webConversation} alt="" />

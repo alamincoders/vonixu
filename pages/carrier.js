@@ -3,6 +3,8 @@ import React from "react";
 import BuildYourBrand from "../components/BuildYourBrand";
 import WebConversation from "../components/WebConversation";
 import WebDesignServices from "../components/webDesignServices";
+import WebsiteInclude from "../components/WebsiteInclude";
+import WhatMakeUs from "../components/WhatMakeUs";
 
 const Carrier = () => {
   return (
@@ -17,6 +19,8 @@ const Carrier = () => {
         <WebConversation/>  
         <WebDesignServices/>
         <BuildYourBrand/>
+        <WebsiteInclude/>
+        <WhatMakeUs/>
        </main>
     </>
   );
