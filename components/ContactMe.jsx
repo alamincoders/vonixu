@@ -2,7 +2,6 @@ import Button from "./shared/Button";
 
 const ContactMe = () => {
   return (
-    <div className="">
       <section className="text-gray-600 bg-gray-50 mt-20 rounded-2xl container  py-10 body-font relative">
         <h1 className="text-4xl font-bold">
           <span className="text-primary">Get In</span> <span className="text-secondary ">Touch</span>
@@ -79,7 +78,6 @@ const ContactMe = () => {
           </div>
         </div>
       </section>
-    </div>
   );
 };
 

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import ContactUs from "../components/ContactUs";
 
 const Contact = () => {
   return (
@@ -10,7 +11,10 @@ const Contact = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="relative pt-24">Contact</main>
+      <main className="relative pt-24"> 
+      <ContactUs/>
+
+      </main>
     </>
   );
 };
