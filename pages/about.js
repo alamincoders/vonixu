@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import AboutVonixu from "../components/AboutVonixu";
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="relative pt-24">About</main>
+      <main className="relative pt-24"> <AboutVonixu/> </main>
     </>
   );
 };
