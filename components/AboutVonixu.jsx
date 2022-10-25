@@ -1,11 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Button from "./shared/Button";
+import BrandBanner from "./BrandBanner";
+import ContactMe from "./ContactMe";
+import Testimonials from "./Testimonials";
 
 const AboutVonixu = () => {
   return (
-    <section className=" py-10">
-      <div className="container">
+    <section className=" pt-10">
+      <div className="container mb-20">
         <h1 className="text-4xl font-bold">
           <span className="text-primary">About</span> <span className="text-secondary ">Vonixu</span>
         </h1>{" "}
@@ -37,13 +39,7 @@ const AboutVonixu = () => {
       </div>
 
       {/* Ready To Your Brand */}
-      <div className="bg-primary my-10 py-28 text-center">
-        <div className="container">
-          <h2 className="text-4xl lg:text-5xl font-semibold text-white">Ready To Build Your Brand?</h2>
-          <p className="text-xl lg:text-2xl uppercase font-semibold my-5 text-white">YOU ARE JUST ONE STEP AWAY TO EXPERIENCE THE PROGRESS.</p>
-         <Button title="Let Us Build Your Business"/>
-        </div>
-      </div>
+     <BrandBanner/>
 
       {/* Our Values */}
       <div className="container py-10 ">
@@ -110,7 +106,7 @@ const AboutVonixu = () => {
           </p>
 
           <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
+            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#022f6a] rounded-xl">
               <img
                 className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                 src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
@@ -142,7 +138,7 @@ const AboutVonixu = () => {
               </div>
             </div>
 
-            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
+            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#022f6a] rounded-xl">
               <img
                 className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                 src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
@@ -174,7 +170,7 @@ const AboutVonixu = () => {
               </div>
             </div>
 
-            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
+            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#022f6a] rounded-xl">
               <img
                 className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                 src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
@@ -206,7 +202,7 @@ const AboutVonixu = () => {
               </div>
             </div>
 
-            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
+            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#022f6a] rounded-xl">
               <img
                 className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                 src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
@@ -238,7 +234,7 @@ const AboutVonixu = () => {
               </div>
             </div>
 
-            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
+            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#022f6a] rounded-xl">
               <img
                 className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                 src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
@@ -270,7 +266,7 @@ const AboutVonixu = () => {
               </div>
             </div>
 
-            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
+            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#022f6a] rounded-xl">
               <img
                 className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                 src="https://images.unsplash.com/photo-1608174386344-80898cec6beb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
@@ -302,7 +298,7 @@ const AboutVonixu = () => {
               </div>
             </div>
 
-            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
+            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#022f6a] rounded-xl">
               <img
                 className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                 src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
@@ -334,7 +330,7 @@ const AboutVonixu = () => {
               </div>
             </div>
 
-            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
+            <div className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#022f6a] rounded-xl">
               <img
                 className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                 src="https://images.unsplash.com/photo-1521488741203-dcc320950ce5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
@@ -370,146 +366,9 @@ const AboutVonixu = () => {
       </section>
 
       {/* Testimonial  */}
-      <div className="container py-10">
-        <h1 className="text-4xl font-bold">
-          <span className="text-primary">Testimonials From Our</span> <span className="text-secondary ">Clients</span>
-        </h1>
-
-        <div className="w-[240px] h-1 bg-primary border-0 rounded-2xl "></div>
-
-        <section className="text-gray-600 body-font">
-          <div className="pt-14 mx-auto">
-            <div className="flex flex-wrap -m-4">
-              <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
-                <div className="h-full text-center">
-                  <img
-                    alt="testimonial"
-                    className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://dummyimage.com/302x302"
-                  />
-                  <p className="leading-relaxed">
-                    Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90s cronut +1 kinfolk. Single-origin coffee ennui
-                    shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
-                  </p>
-                  <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-                  <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
-                  <p className="text-gray-500">Senior Product Designer</p>
-                </div>
-              </div>
-              <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
-                <div className="h-full text-center">
-                  <img
-                    alt="testimonial"
-                    className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://dummyimage.com/300x300"
-                  />
-                  <p className="leading-relaxed">
-                    Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90s cronut +1 kinfolk. Single-origin coffee ennui
-                    shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
-                  </p>
-                  <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-                  <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">ALPER KAMU</h2>
-                  <p className="text-gray-500">UI Develeoper</p>
-                </div>
-              </div>
-              <div className="lg:w-1/3 lg:mb-0 p-4">
-                <div className="h-full text-center">
-                  <img
-                    alt="testimonial"
-                    className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://dummyimage.com/305x305"
-                  />
-                  <p className="leading-relaxed">
-                    Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90s cronut +1 kinfolk. Single-origin coffee ennui
-                    shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
-                  </p>
-                  <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-                  <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
-                  <p className="text-gray-500">CTO</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-
+      <Testimonials />
       {/* Get In Touch */}
-      <div className="container py-10">
-        <h1 className="text-4xl font-bold">
-          <span className="text-primary">Get In</span> <span className="text-secondary ">Touch</span>
-        </h1>
-
-        <div className="w-[108px] h-1 bg-primary border-0 rounded-2xl "></div>
-
-        <div className=" pt-14 mx-auto flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-            <iframe
-              width="100%"
-              height="100%"
-              className="absolute inset-0"
-              frameBorder="0"
-              title="map"
-              marginHeight="0"
-              marginWidth="0"
-              scrolling="no"
-              src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-            ></iframe>
-            <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
-              <div className="lg:w-1/2 px-6">
-                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-                <p className="mt-1">Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter</p>
-              </div>
-              <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-                <a className="text-indigo-500 leading-relaxed">example@email.com</a>
-                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-                <p className="leading-relaxed">123-456-7890</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-            <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Contact Me</h2>
-            <p className="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
-            <div className="relative mb-4">
-              <label for="name" className="leading-7 text-sm text-gray-600">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div className="relative mb-4">
-              <label for="email" className="leading-7 text-sm text-gray-600">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div className="relative mb-4">
-              <label for="message" className="leading-7 text-sm text-gray-600">
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              ></textarea>
-            </div>
-
-            <Button title="Message"/>
-
-            <p className="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
-          </div>
-        </div>
-      </div>
+      <ContactMe />
     </section>
   );
 };

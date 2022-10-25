@@ -2,12 +2,9 @@ import React from "react";
 
 const Button = ({ title }) => {
   return (
-    <button className="relative mt-5 px-5 py-2.5 font-medium text-white group text-[13px] lg:text-[16px]">
-      <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-secondary group-hover:bg-purple-700 group-hover:skew-x-12"></span>
-      <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-primary group-hover:bg-purple-500 group-hover:-skew-x-12"></span>
-      <span className="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-purple-600 -rotate-12"></span>
-      <span className="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12"></span>
-      <span className="relative">{title}</span>
+    <button class="rounded-md mt-5 px-5 py-3 overflow-hidden group bg-primary relative hover:bg-gradient-to-r hover:from-[#022f6a] hover:to-[#fc80217c] text-white hover:ring-2 hover:ring-offset-2 hover:ring-[#fc8121] transition-all ease-out duration-500 ">
+      <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-20 rotate-12 group-hover:-translate-x-80 ease"></span>
+      <span class="relative">{title}</span>
     </button>
   );
 };

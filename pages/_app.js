@@ -25,6 +25,7 @@ function MyApp({ Component, pageProps }) {
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
+        
       </Head>
 
       <Layout>
