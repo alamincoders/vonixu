@@ -18,10 +18,10 @@ export default function Home() {
         <WhyVonixu />
         <GrowBusiness />
         <BrandBanner />
-        <OurServices/>
-        <Testimonials/>
-        <FreeSession/>
-        <ContactMe/>
+        <OurServices />
+        <Testimonials />
+        <FreeSession />
+        <ContactMe />
       </main>
     </div>
   );
