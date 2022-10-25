@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import BuildYourBrand from "../components/BuildYourBrand";
 import WebConversation from "../components/WebConversation";
 import WebDesignServices from "../components/webDesignServices";
 
@@ -15,6 +16,7 @@ const Carrier = () => {
       <main className="relative pt-24"> 
         <WebConversation/>  
         <WebDesignServices/>
+        <BuildYourBrand/>
        </main>
     </>
   );
