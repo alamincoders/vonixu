@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import WebConversation from "../components/WebConversation";
+import WebDesignServices from "../components/webDesignServices";
 
 const Carrier = () => {
   return (
@@ -13,6 +14,7 @@ const Carrier = () => {
 
       <main className="relative pt-24"> 
         <WebConversation/>  
+        <WebDesignServices/>
        </main>
     </>
   );
