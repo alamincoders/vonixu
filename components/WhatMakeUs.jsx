@@ -2,8 +2,8 @@ import { WhatMakeUsData } from '../data/data';
 
 const WhatMakeUs = () => {
   return (
-    <div className='bg-gray-50' >
-      <section className="container py-10">
+    <section className='bg-gray-50' >
+      <div className="container py-10">
         <h1 className="text-4xl font-bold">
           <span className="text-primary">What Make Us</span>{" "}
           <span className="text-secondary ">
@@ -33,8 +33,8 @@ const WhatMakeUs = () => {
             </div>
           ))}
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

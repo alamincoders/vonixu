@@ -173,3 +173,32 @@ export const WhatMakeUsData = [
       "Pay no more. Pay no Less. No hidden fees. Our web design agency is affordable and excellent and will fit any budget.",
   },
 ];
+
+
+// Our Process Data
+export const OurProcessData = [
+  {
+    name: "Analysis and Planning",
+    id: 1,
+    description:
+      "First, we ask you the goal you want to achieve; the target audience you want to convert, etc. Thereby we can determine the right way to design your website. ",
+  },
+  {
+    name: "Design and Development",
+    id: 2,
+    description:
+      "Second, we draft the website layout. We plan for the sitemap, and website structure. We determine the logo, font, color palette, icon styling, etc. Hence, we ensure usability, UI, and UX.",
+  },
+  {
+    name: "Testing and Revision",
+    id: 3,
+    description:
+      "Third, we verify the coding scripts, browser, and mobile compatibility. In this part, we bring changes as per your requirements to ensure the end-users can properly interact with your site.",
+  },
+  {
+    name: "Final Delivery",
+    id: 4,
+    description:
+      "By this time, it’s all done and dusted; wait for your gem to reach you. If the work order comes with maintenance, we cautiously monitor your site’s performance and bug issues over time.",
+  }
+];
