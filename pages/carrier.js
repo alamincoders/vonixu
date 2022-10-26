@@ -1,5 +1,12 @@
 import Head from "next/head";
 import React from "react";
+import BuildYourBrand from "../components/BuildYourBrand";
+import ContactMe from "../components/ContactMe";
+import Pricing from "../components/Pricing";
+import WebConversation from "../components/WebConversation";
+import WebDesignServices from "../components/webDesignServices";
+import WebsiteInclude from "../components/WebsiteInclude";
+import WhatMakeUs from "../components/WhatMakeUs";
 
 const Carrier = () => {
   return (
@@ -10,7 +17,15 @@ const Carrier = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="relative pt-24">Carrier</main>
+      <main className="relative pt-24"> 
+        <WebConversation/>  
+        <WebDesignServices/>
+        <BuildYourBrand/>
+        <WebsiteInclude/>
+        <Pricing/>
+        <WhatMakeUs/>
+        <ContactMe/>
+       </main>
     </>
   );
 };

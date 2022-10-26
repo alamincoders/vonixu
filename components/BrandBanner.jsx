@@ -2,7 +2,7 @@ import React from "react";
 
 const BrandBanner = () => {
   return (
-    <div className="bg-primary py-28 text-center">
+    <section className="bg-primary py-28 text-center">
       <div className="container">
         <h2 className="text-4xl lg:text-5xl font-semibold text-white">Ready To Build Your Brand?</h2>
         <p className="text-xl lg:text-2xl uppercase font-semibold my-5 text-white">YOU ARE JUST ONE STEP AWAY TO EXPERIENCE THE PROGRESS.</p>
@@ -15,7 +15,7 @@ const BrandBanner = () => {
           <span className="relative transition-colors duration-300 delay-200 group-hover:text-white ease"> Let Us Build Your Business</span>
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 
