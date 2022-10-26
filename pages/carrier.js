@@ -4,7 +4,6 @@ import BrandBanner from "../components/BrandBanner";
 import ContactMe from "../components/ContactMe";
 import Pricing from "../components/Pricing";
 import WebConversation from "../components/WebConversation";
-import WebDesignServices from "../components/webDesignServices";
 import WebsiteInclude from "../components/WebsiteInclude";
 import WhatMakeUs from "../components/WhatMakeUs";
 
@@ -19,7 +18,7 @@ const Carrier = () => {
 
       <main className="relative pt-24">
         <WebConversation />
-        <WebDesignServices />
+        {/* <WebDesignServices /> */}
         <BrandBanner />
         <WebsiteInclude />
         <Pricing />
