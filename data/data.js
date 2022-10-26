@@ -294,17 +294,17 @@ export const TeamMemberData = [
     name: "Temporary",
     position: "Senior Web Developer",
   },
-  {
-    id: 9,
-    // image: tempoarary,
-    name: "Temporary",
-    position: "Senior Web Developer",
-  },
-  {
-    id: 10,
-    // image: tempoarary,
-    name: "Temporary",
-    position: "Senior Web Developer",
-  },
+  // {
+  //   id: 9,
+  //   // image: tempoarary,
+  //   name: "Temporary",
+  //   position: "Senior Web Developer",
+  // },
+  // {
+  //   id: 10,
+  //   // image: tempoarary,
+  //   name: "Temporary",
+  //   position: "Senior Web Developer",
+  // },
 ];
 

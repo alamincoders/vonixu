@@ -37,7 +37,7 @@ const TeamMember = () => {
                       rel="noopener noreferrer"
                       href="#"
                       title="Email"
-                      className="dark:text-gray-900 hover:dark:text-violet-400"
+                      className="dark:text-gray-900 hover:dark:text-yellow-200"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const TeamMember = () => {
                       rel="noopener noreferrer"
                       href="#"
                       title="Twitter"
-                      className="dark:text-gray-900 hover:dark:text-violet-400"
+                      className="dark:text-gray-900 hover:dark:text-yellow-200"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ const TeamMember = () => {
                       rel="noopener noreferrer"
                       href="#"
                       title="LinkedIn"
-                      className="dark:text-gray-900 hover:dark:text-violet-400"
+                      className="dark:text-gray-900 hover:dark:text-yellow-200"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@ const TeamMember = () => {
                       rel="noopener noreferrer"
                       href="#"
                       title="GitHub"
-                      className="dark:text-gray-900 hover:dark:text-violet-400"
+                      className="dark:text-gray-900 hover:dark:text-yellow-200"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
