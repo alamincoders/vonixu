@@ -29,6 +29,9 @@ import designdev from '../assets/ourProcess/designdev.png'
 import testing from '../assets/ourProcess/testing.png'
 import finaldelivery from '../assets/ourProcess/finaldelivery.png'
 
+// Team Member Image Import
+
+
 
 
 // Featured Data
@@ -240,3 +243,68 @@ export const OurProcessData = [
       "By this time, it’s all done and dusted; wait for your gem to reach you. If the work order comes with maintenance, we cautiously monitor your site’s performance and bug issues over time.",
   }
 ];
+
+// Team Member Data
+export const TeamMemberData = [
+  {
+    id: 1,
+    // image: tempoarary,
+    name: "Kamrul Hasan",
+    position: "CEO & Founder",
+  },
+  {
+    id: 2,
+    // image: tempoarary,
+    name: "Temporary",
+    position: "Managing Director",
+  },
+  {
+    id: 3,
+    // image: tempoarary,
+    name: "Temporary",
+    position: "Senior Web Developer",
+  },
+  {
+    id: 4,
+    // image: tempoarary,
+    name: "Mohammad Faisal",
+    position: "Senior Web Developer",
+  },
+  {
+    id: 5,
+    // image: tempoarary,
+    name: "Al Amin",
+    position: "Senior Web Developer",
+  },
+  {
+    id: 6,
+    // image: tempoarary,
+    name: "Temporary",
+    position: "Senior Web Developer",
+  },
+  {
+    id: 7,
+    // image: tempoarary,
+    name: "Temporary",
+    position: "Senior Web Developer",
+  },
+  {
+    id: 8,
+    // image: tempoarary,
+    name: "Temporary",
+    position: "Senior Web Developer",
+  },
+  {
+    id: 9,
+    // image: tempoarary,
+    name: "Temporary",
+    position: "Senior Web Developer",
+  },
+  {
+    id: 10,
+    // image: tempoarary,
+    name: "Temporary",
+    position: "Senior Web Developer",
+  },
+];
+

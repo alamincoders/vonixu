@@ -15,7 +15,7 @@ const WebsiteInclude = () => {
         {WebsiteIncludesData.map((include) => (
           <div key={include.id}>
             <div className="relative h-full block text-center cursor-pointer hover:bg-gray-200 hover:rounded-lg duration-300 transition ease-in-out border-violet-600 rounded-tl-lg p-8 shadow-md ">
-              <Image className='w-[50px] h-[50px]' src={include.image} alt="include" />
+              <Image width={50} height={50} src={include.image} alt="include" />
               <h3 className="text-xl text-primary font-bold">{include.name}</h3>
               <p className="mt-4 text-[16px] font-medium text-gray-700">
                 {include.description}
@@ -24,6 +24,7 @@ const WebsiteInclude = () => {
           </div>
         ))}
       </div>
+      
     </section>
   );
 };

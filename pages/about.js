@@ -1,6 +1,12 @@
 import Head from "next/head";
 import React from "react";
+import AboutService from "../components/AboutService";
 import AboutVonixu from "../components/AboutVonixu";
+import BrandBanner from "../components/BrandBanner";
+import ContactMe from "../components/ContactMe";
+import OurValues from "../components/OurValues";
+import TeamMember from "../components/TeamMember";
+import Testimonials from "../components/Testimonials";
 
 const About = () => {
   return (
@@ -11,7 +17,15 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="relative pt-24"> <AboutVonixu/> </main>
+      <main className="relative pt-24">
+        <AboutService />
+        <AboutVonixu />
+        <BrandBanner />
+        <OurValues />
+        <TeamMember/>
+        <Testimonials />
+        <ContactMe />
+      </main>
     </>
   );
 };
