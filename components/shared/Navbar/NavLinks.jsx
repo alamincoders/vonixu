@@ -11,7 +11,7 @@ const NavLinks = () => {
         <div key={i}>
           <div className="pr-4 md:pr-1 lg:pr-0 text-left md:cursor-pointer group">
             <h1
-              className=" flex justify-between items-center  group"
+              className=" flex justify-start space-x-2 items-center  group"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
@@ -27,7 +27,7 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute top-20 hidden group-hover:md:block hover:md:block">
+                <div className="absolute top-8 hidden group-hover:md:block hover:md:block">
                   <div className="py-3">
                     <div
                       className="w-4 h-4 left-3 absolute 
@@ -64,7 +64,7 @@ const NavLinks = () => {
                 <div>
                   <h1
                     onClick={() => (subHeading !== slinks.Head ? setSubHeading(slinks.Head) : setSubHeading(""))}
-                    className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center"
+                    className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-start space-x-2 items-center"
                   >
                     {slinks.Head}
 

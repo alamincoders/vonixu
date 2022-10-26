@@ -2,7 +2,7 @@ import { WhatMakeUsData } from '../data/data';
 
 const WhatMakeUs = () => {
   return (
-    <div className='bg-[#b6afaf2c]' >
+    <div className='bg-gray-50' >
       <section className="container py-10">
         <h1 className="text-4xl font-bold">
           <span className="text-primary">What Make Us</span>{" "}
@@ -22,7 +22,7 @@ const WhatMakeUs = () => {
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 py-10">
           {WhatMakeUsData.map((meetUs) => (
             <div key={meetUs.id}>
-              <div className="relative block cursor-pointer bg-white rounded-br-lg rounded-tl-lg p-8 shadow-md ">
+              <div className="relative block cursor-pointer bg-white rounded-br-lg rounded-tl-lg p-8  h-full drop-shadow-md">
                 <h3 className="text-2xl text-primary font-bold">
                   {meetUs.name}
                 </h3>

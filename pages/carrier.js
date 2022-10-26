@@ -7,6 +7,7 @@ import WebConversation from "../components/WebConversation";
 import WebDesignServices from "../components/webDesignServices";
 import WebsiteInclude from "../components/WebsiteInclude";
 import WhatMakeUs from "../components/WhatMakeUs";
+import BrandBanner from "../components/BrandBanner";
 
 const Carrier = () => {
   return (
@@ -20,7 +21,7 @@ const Carrier = () => {
       <main className="relative pt-24"> 
         <WebConversation/>  
         <WebDesignServices/>
-        <BuildYourBrand/>
+        <BrandBanner/>
         <WebsiteInclude/>
         <Pricing/>
         <WhatMakeUs/>
