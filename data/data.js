@@ -7,6 +7,28 @@ import protom_alo from '../assets/featured/protom alo.png'
 import independent from '../assets/featured/independent.png'
 import cityFM  from '../assets/featured/cityFM.png'
 
+// What Make Us Image Import
+import trust from '../assets/makeUs/trust.png'
+import experience from '../assets/makeUs/experience.png'
+import seo from '../assets/makeUs/seo.png'
+import timeWork from '../assets/makeUs/timework.png'
+import haapyCustomer from '../assets/makeUs/happycustomer.png'
+import aaffordaable from '../assets/makeUs/affordable.png'
+
+// Website Include Image Import
+import responsive from '../assets/websitesInclude​/responsive-design.png'
+import SEO from '../assets/websitesInclude​/seo.png'
+import integration from '../assets/websitesInclude​/integration.png'
+import speed from '../assets/websitesInclude​/internet-speed.png'
+import analysis from '../assets/websitesInclude​/analytics.png'
+import security from '../assets/websitesInclude​/security.png'
+
+// Our Process Image Import
+import Analysis from '../assets/ourProcess/analysis.png'
+import designdev from '../assets/ourProcess/designdev.png'
+import testing from '../assets/ourProcess/testing.png'
+import finaldelivery from '../assets/ourProcess/finaldelivery.png'
+
 
 
 // Featured Data
@@ -101,34 +123,40 @@ export const MeetUsData = [
 // Website Include Data
 export const WebsiteIncludesData = [
   {
-    name: "Mobile/Tablet Responsive",
     id: 1,
+    image: responsive,
+    name: "Mobile/Tablet Responsive",
     description: "A seamless viewing experience on mobile/tablets.",
   },
   {
-    name: "SEO Optimization",
     id: 2,
+    image: SEO,
+    name: "SEO Optimization",
     description: "Quickly get found online for what you do.",
   },
   {
-    name: "Social Media Integration",
     id: 3,
+    image: integration,
+    name: "Social Media Integration",
     description:
       "Market your new websites by connecting social media profiles.",
   },
   {
-    name: "Fast Website Speed",
     id: 4,
+    image: speed,
+    name: "Fast Website Speed",
     description: "You’ll have quick load times to keep users engaged. ",
   },
   {
-    name: "Google Analytics",
     id: 5,
+    image: analysis,
+    name: "Google Analytics",
     description: "Data to see how your site is performing",
   },
   {
-    name: "Security",
     id: 6,
+    image: security,
+    name: "Security",
     description: "Around-the-clock security from hackers.",
   },
 ];
@@ -137,38 +165,44 @@ export const WebsiteIncludesData = [
 // What Make Us Data
 export const WhatMakeUsData = [
   {
-    name: "Trusted",
     id: 1,
+    image: trust,
+    name: "Trusted",
     description:
       "Your website is your first impression.an opportunity to show the world what you offer. Hence, there is no trust without us! ",
   },
   {
-    name: "High Experience",
     id: 2,
+    image: experience ,
+    name: "High Experience",
     description:
       "11+ yrs experience, 90% client retention rate, good programming skills… all suggest we’re the best web design company in the country.",
   },
   {
-    name: "SEO Friendly Design",
     id: 3,
+    image: seo,
+    name: "SEO Friendly Design",
     description:
       "Hiring an SEO friendly web designing company is always a good decision, as it saves time and money altogether.",
   },
   {
-    name: "Timely Work",
     id: 4,
+    image: timeWork,
+    name: "Timely Work",
     description:
       "We beat deadlines and you don’t have to wait. With our expert services, we will get your website up and be running quickly.",
   },
   {
-    name: "Happy Customers",
     id: 5,
+    image: haapyCustomer,
+    name: "Happy Customers",
     description:
       "Our web design agency enjoys the best customer ratings, feedbacks and testimonies. Because we believe the customer is King!",
   },
   {
-    name: "Affordable",
     id: 6,
+    image: aaffordaable,
+    name: "Affordable",
     description:
       "Pay no more. Pay no Less. No hidden fees. Our web design agency is affordable and excellent and will fit any budget.",
   },
@@ -178,26 +212,30 @@ export const WhatMakeUsData = [
 // Our Process Data
 export const OurProcessData = [
   {
-    name: "Analysis and Planning",
     id: 1,
+    image: Analysis,
+    name: "Analysis and Planning",
     description:
       "First, we ask you the goal you want to achieve; the target audience you want to convert, etc. Thereby we can determine the right way to design your website. ",
   },
   {
-    name: "Design and Development",
     id: 2,
+    image: designdev,
+    name: "Design and Development",
     description:
       "Second, we draft the website layout. We plan for the sitemap, and website structure. We determine the logo, font, color palette, icon styling, etc. Hence, we ensure usability, UI, and UX.",
   },
   {
-    name: "Testing and Revision",
     id: 3,
+    image: testing,
+    name: "Testing and Revision",
     description:
       "Third, we verify the coding scripts, browser, and mobile compatibility. In this part, we bring changes as per your requirements to ensure the end-users can properly interact with your site.",
   },
   {
-    name: "Final Delivery",
     id: 4,
+    image: finaldelivery,
+    name: "Final Delivery",
     description:
       "By this time, it’s all done and dusted; wait for your gem to reach you. If the work order comes with maintenance, we cautiously monitor your site’s performance and bug issues over time.",
   }

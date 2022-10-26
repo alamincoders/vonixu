@@ -19,6 +19,7 @@ const Banner = () => {
               <div className="w-20 h-1 bg-secondary border-0 rounded-2xl mt-3"></div>
             </h1>
             <div className="bg_shadow hidden md:block lg:block"></div>
+            
             <div className=" hidden md:block lg:block  ">
               <p className=" text-[20px] mb-5">
                 With a decade of experience in the Digital industry, <br /> we proved that the combination of strategic thinking <br /> and expertise
