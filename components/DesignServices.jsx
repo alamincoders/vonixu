@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import webDesign from "../assets/services/webdesignservices.svg";
 
-const WebDesignServices = () => {
+const DesignServices = () => {
   return (
     <section className="container py-10">
       <div className=" grid grid-col-1 lg:grid-cols-2 gap-y-8">
@@ -31,4 +31,4 @@ const WebDesignServices = () => {
   );
 };
 
-export default WebDesignServices;
+export default DesignServices;

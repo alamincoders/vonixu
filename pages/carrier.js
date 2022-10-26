@@ -2,6 +2,7 @@ import Head from "next/head";
 import React from "react";
 import BrandBanner from "../components/BrandBanner";
 import ContactMe from "../components/ContactMe";
+import DesignServices from "../components/DesignServices";
 import Pricing from "../components/Pricing";
 import WebConversation from "../components/WebConversation";
 import WebsiteInclude from "../components/WebsiteInclude";
@@ -18,7 +19,7 @@ const Carrier = () => {
 
       <main className="relative pt-24">
         <WebConversation />
-        {/* <WebDesignServices /> */}
+        <DesignServices />
         <BrandBanner />
         <WebsiteInclude />
         <Pricing />
