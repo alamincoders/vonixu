@@ -1,9 +1,10 @@
+import Image from 'next/image';
 import { WhatMakeUsData } from '../data/data';
 
 const WhatMakeUs = () => {
   return (
-    <div className='bg-gray-50' >
-      <section className="container py-10">
+    <section className='bg-gray-50' >
+      <div className="container py-10">
         <h1 className="text-4xl font-bold">
           <span className="text-primary">What Make Us</span>{" "}
           <span className="text-secondary ">
@@ -23,6 +24,7 @@ const WhatMakeUs = () => {
           {WhatMakeUsData.map((meetUs) => (
             <div key={meetUs.id}>
               <div className="relative block cursor-pointer bg-white rounded-br-lg rounded-tl-lg p-8  h-full drop-shadow-md">
+                 <Image className='w-[50px] h-[50px]' src={meetUs.image} alt="include" /> 
                 <h3 className="text-2xl text-primary font-bold">
                   {meetUs.name}
                 </h3>
@@ -33,8 +35,8 @@ const WhatMakeUs = () => {
             </div>
           ))}
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

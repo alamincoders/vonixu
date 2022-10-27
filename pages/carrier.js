@@ -3,6 +3,8 @@ import React from "react";
 import BrandBanner from "../components/BrandBanner";
 import ContactMe from "../components/ContactMe";
 import DesignServices from "../components/DesignServices";
+import FreeSession from "../components/FreeSession";
+import OurProcess from "../components/OurProcess";
 import Pricing from "../components/Pricing";
 import WebConversation from "../components/WebConversation";
 import WebsiteInclude from "../components/WebsiteInclude";
@@ -22,8 +24,10 @@ const Carrier = () => {
         <DesignServices />
         <BrandBanner />
         <WebsiteInclude />
+        <OurProcess/>
         <Pricing />
         <WhatMakeUs />
+        <FreeSession/>
         <ContactMe />
       </main>
     </>
