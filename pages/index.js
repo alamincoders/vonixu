@@ -12,7 +12,6 @@ export default function Home() {
   return (
     <div>
       <main className="relative pt-20">
-        {/* all components */}
         <Banner />
         <Featured />
         <WhyVonixu />
