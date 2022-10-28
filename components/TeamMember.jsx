@@ -5,9 +5,9 @@ import { TeamMemberData } from '../data/data';
 
 const TeamMember = () => {
   return (
-    <section>
+    <section className="bg-gray-200/70 mt-10">
       <section className="py-6 container">
-        <h1 className="text-4xl text-primary font-bold leading-none text-center sm:text-5xl">
+        <h1 className="text-4xl mt-10 text-primary font-bold leading-none text-center sm:text-5xl">
           Meet The Leadership Team
         </h1>
         <p className=" text-primary  font-medium tracking-wider text-center uppercase my-5 ">
@@ -16,28 +16,27 @@ const TeamMember = () => {
           possible designs.{" "}
         </p>
 
-     
-          <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-10 py-10">
-            {TeamMemberData.map((team) => (
-              <div key={team.id}>
-                <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-400 dark:text-gray-800">
-                  <img
-                    alt=""
-                    className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full dark:bg-gray-500"
-                    src="https://source.unsplash.com/100x100/?portrait?0"
-                  />
-                  <div className="flex-1 my-4">
-                    <p className="text-xl font-semibold leading-snug">
-                      {team.name}
-                    </p>
-                    <p>{team.position}</p>
-                  </div>
-                  <div className="flex items-center justify-center p-3 space-x-3 border-t-2">
+        <div className="grid md:grid-cols-2 xl:grid-cols-4  gap-10 py-10">
+          {TeamMemberData.map((team) => (
+            <div key={team.id}>
+              <div className="flex flex-col justify-center w-full  my-12 text-center  md:w-96 lg:w-80 xl:w-64 shadow-md rounded-2xl bg-white dark:text-gray-800">
+                <img
+                  alt=""
+                  className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full dark:bg-gray-500"
+                  src="https://source.unsplash.com/100x100/?portrait?0"
+                />
+                <div className="flex-1 my-4">
+                  <p className="text-xl font-semibold leading-snug">
+                    {team.name}
+                  </p>
+                  <p>{team.position}</p>
+                </div>
+                <div className="flex items-center justify-center p-3 space-x-3 border-t-2">
                     <a
                       rel="noopener noreferrer"
                       href="#"
                       title="Email"
-                      className="dark:text-gray-900 hover:dark:text-yellow-200"
+                      className="dark:text-gray-900 hover:dark:text-orange-400"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +52,7 @@ const TeamMember = () => {
                       rel="noopener noreferrer"
                       href="#"
                       title="Twitter"
-                      className="dark:text-gray-900 hover:dark:text-yellow-200"
+                      className="dark:text-gray-900 hover:dark:text-orange-400"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +67,7 @@ const TeamMember = () => {
                       rel="noopener noreferrer"
                       href="#"
                       title="LinkedIn"
-                      className="dark:text-gray-900 hover:dark:text-yellow-200"
+                      className="dark:text-gray-900 hover:dark:text-orange-400"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +82,7 @@ const TeamMember = () => {
                       rel="noopener noreferrer"
                       href="#"
                       title="GitHub"
-                      className="dark:text-gray-900 hover:dark:text-yellow-200"
+                      className="dark:text-gray-900 hover:dark:text-orange-400"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -95,11 +94,10 @@ const TeamMember = () => {
                       </svg>
                     </a>
                   </div>
-                </div>
               </div>
-            ))}
-          </div>
- 
+            </div>
+          ))}
+        </div>
       </section>
     </section>
   );

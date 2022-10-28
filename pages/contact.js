@@ -1,6 +1,8 @@
 import Head from "next/head";
 import React from "react";
-import ContactUs from "../components/ContactUs";
+import ContactMe from "../components/ContactMe";
+import MeetUs from "../components/MeetUs";
+import ScheduleMeeting from "../components/ScheduleMeeting";
 
 const Contact = () => {
   return (
@@ -11,9 +13,10 @@ const Contact = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="relative pt-24"> 
-      <ContactUs/>
-
+      <main className="relative pt-24">
+        <ScheduleMeeting />
+        <MeetUs/>
+        <ContactMe />
       </main>
     </>
   );
