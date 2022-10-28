@@ -28,6 +28,7 @@ const Navbar = () => {
           </ul>
 
           <NavLinks />
+          
 
           <ul className="inline-flex space-x-5">
             <Link href="/about">
