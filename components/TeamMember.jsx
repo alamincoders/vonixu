@@ -17,7 +17,7 @@ const TeamMember = () => {
         </p>
 
      
-          <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-10 py-10">
+          <div className="grid md:grid-cols-2 xl:grid-cols-4 bg-red-900 gap-10 py-10">
             {TeamMemberData.map((team) => (
               <div key={team.id}>
                 <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-400 dark:text-gray-800">
