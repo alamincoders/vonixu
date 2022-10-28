@@ -27,7 +27,7 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute w-full -left-[0.3%] top-10 hidden opacity-0 hover:opacity-100 hover:translate-y-0 -translate-y-full md:block hover:md:block transition duration-500 ">
+                <div className="absolute w-full -left-[0.3%] top-10 hidden group-hover:md:block hover:md:block ">
                   <div className="py-3">
                     <div
                       className="w-4 h-4 left-[35%] absolute 
