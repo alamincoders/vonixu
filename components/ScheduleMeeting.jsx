@@ -1,13 +1,9 @@
 import React from 'react';
-import { MeetUsData } from '../data/data';
-import ContactMe from './ContactMe';
-import Button from './shared/Button';
 
-const ContactUs = () => {
+const ScheduleMeeting = () => {
   return (
-    <section>
-      {/* Schedule Meeting */}
-      <div className="bg-primary py-28 text-center">
+    <>
+      <section className="bg-primary py-28 text-center">
         <div className="container">
           <h2 className="text-4xl lg:text-5xl font-semibold text-white">
             Find Out How We Can Increase Your Profit
@@ -23,7 +19,6 @@ const ContactUs = () => {
             <div class="mx-auto w-full ">
               <form action="https://formbold.com/s/FORM_ID" method="POST">
                 <div class="-mx-3 flex flex-wrap">
-                  
                   <div class="w-full px-3 sm:w-1/2">
                     <div class="mb-5">
                       <label
@@ -41,7 +36,7 @@ const ContactUs = () => {
                       />
                     </div>
                   </div>
-                  
+
                   <div class="w-full px-3 sm:w-1/2">
                     <div class="mb-5">
                       <label
@@ -160,7 +155,6 @@ const ContactUs = () => {
                     *Interested In?
                   </label>
                   <div class="gird flex items-center space-x-3">
-
                     <div class="flex items-center">
                       <input
                         type="checkbox"
@@ -274,7 +268,6 @@ const ContactUs = () => {
                         Others
                       </label>
                     </div>
-
                   </div>
                 </div>
 
@@ -301,37 +294,9 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      {/* Meet Us */}
-      <div className="container py-10">
-        <h1 className="text-4xl font-bold">
-          <span className="text-primary">This Happens When You</span>{" "}
-          <span className="text-secondary ">Meet Us​</span>
-        </h1>
-
-        <div className="w-[108px] h-1 bg-primary border-0 rounded-2xl "></div>
-
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 py-10">
-          {MeetUsData.map((meetUs) => (
-            <div key={meetUs.id}>
-              <div className="relative block cursor-pointer hover:bg-gray-200 hover:rounded-lg duration-300 transition ease-in-out border-violet-600 rounded-tl-lg p-8 shadow-md ">
-                <h3 className="text-2xl text-primary font-bold">
-                  {meetUs.name}
-                </h3>
-                <p className="mt-4 text-[16px] font-medium text-gray-700">
-                  {meetUs.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Get In Touch */}
-     <ContactMe/>
-    </section>
+      </section>
+    </>
   );
 };
 
-export default ContactUs;
+export default ScheduleMeeting;

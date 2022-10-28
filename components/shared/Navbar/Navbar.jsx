@@ -7,47 +7,46 @@ import NavLinks from "./NavLinks";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-gray-100 py-2 border-gray-50/70 border-gray-100  fixed w-full top-0 z-[999]">
+    <nav className="bg-[#081A3E] py-2 border-gray-50/70 border-gray-100  fixed w-full top-0 z-[999]">
       <div className=" container flex justify-between items-center relative">
         <div className="z-50 md:w-auto w-full flex justify-between items-center">
           <Link href="/">
             <Image src={logo} alt="logo" />
           </Link>
           <Script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></Script>
-          <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
+          <div className="text-3xl md:hidden text-secondary " onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
         </div>
-        <div className="md:flex hidden uppercase items-center gap-8">
-          <ul className="inline-flex space-x-5">
+        <div className="md:flex hidden  items-center gap-8">
+          <ul className="inline-flex  space-x-5">
             <Link href="/">
-              <li className="text-[16px] font-medium text-primary cursor-pointer">
+              <li className="text-[16px] !text-white font-medium text-primary cursor-pointer">
                 Home
               </li>
             </Link>
           </ul>
 
           <NavLinks />
-          
 
           <ul className="inline-flex space-x-5">
             <Link href="/about">
-              <li className="text-[16px] font-medium text-primary cursor-pointer">
+              <li className="text-[16px] !text-white font-medium text-primary cursor-pointer">
                 About Us
               </li>
             </Link>
             <Link href="/blog">
-              <li className="text-[16px] font-medium text-primary cursor-pointer">
+              <li className="text-[16px] !text-white font-medium text-primary cursor-pointer">
                 Blog
               </li>
             </Link>
             <Link href="/carrier">
-              <li className="text-[16px] font-medium text-primary cursor-pointer">
+              <li className="text-[16px] !text-white font-medium text-primary cursor-pointer">
                 Portfolio
               </li>
             </Link>
             <Link href="/contact">
-              <li className="text-[16px] font-medium text-primary cursor-pointer">
+              <li className="text-[16px] !text-white font-medium text-primary cursor-pointer">
                 Contact Us
               </li>
             </Link>
