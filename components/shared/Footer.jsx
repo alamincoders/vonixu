@@ -1,46 +1,34 @@
 import Image from "next/image";
-import logo from "../../assets/logo/web/jpg.jpg";
+import logo from "../../assets/logo/web/png.png";
 import Button from "./Button";
 
 const Footer = () => {
   return (
-    <section className="bg-gray-100 mt-20">
+    <section className="bg-[#081A3E] text-white mt-20">
       <div aria-label="Site Footer" className=" container pt-16">
         <div className="mx-auto max-w-screen-xl px-4  pb-6 sm:px-6 lg:px-8">
-          <div className=" grid grid-cols-1 gap-8 border-t border-gray-100 md:grid-cols-4 lg:grid-cols-6">
+          <div className=" grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-6">
             {" "}
             <div className="text-center sm:text-left md:col-span-4 lg:col-span-2">
-              <div className="flex justify-center text-teal-600 sm:justify-start">
+              <div className="flex justify-center text-teal-600   rounded-2xl sm:justify-start">
                 <Image src={logo} alt="" />
               </div>
 
               <div className="mx-auto mt-8 max-w-md sm:ml-0">
-                <p className="text-center leading-relaxed text-gray-500 sm:text-left">
+                <p className="text-center text-white leading-relaxed  sm:text-left">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum id, iure consectetur et error hic!
                 </p>
-
-                <form className="mt-4">
-                  <div className="flex flex-col gap-4 sm:flex-row lg:flex-col lg:items-start">
-                    <label for="email" className="sr-only">
-                      Email
-                    </label>
-
-                    <input className="w-full rounded-full border-gray-200 px-6 py-3 shadow-sm" type="email" placeholder="Enter your email" />
-
-                    <Button title="Subscribe" />
-                  </div>
-                </form>
               </div>
             </div>
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-gray-900">Contact Us</p>
+              <p className="text-lg font-medium text-white">Contact Us</p>
 
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
                   <a className="flex items-center justify-center gap-1.5 sm:justify-start" href="www.gmail.com">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 shrink-0 text-gray-900"
+                      className="h-5 w-5 shrink-0 text-white"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -53,7 +41,7 @@ const Footer = () => {
                       />
                     </svg>
 
-                    <span className="text-gray-700">john@doe.com</span>
+                    <span className="text-gray-300">john@doe.com</span>
                   </a>
                 </li>
 
@@ -61,7 +49,7 @@ const Footer = () => {
                   <a className="flex items-center justify-center gap-1.5 sm:justify-start" href="www.phone.com">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 shrink-0 text-gray-900"
+                      className="h-5 w-5 shrink-0 text-white"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -74,14 +62,14 @@ const Footer = () => {
                       />
                     </svg>
 
-                    <span className="text-gray-700">0123456789</span>
+                    <span className="text-gray-300">0123456789</span>
                   </a>
                 </li>
 
                 <li className="flex items-start justify-center gap-1.5 sm:justify-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5 shrink-0 text-gray-900"
+                    className="h-5 w-5 shrink-0 text-white"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -95,35 +83,35 @@ const Footer = () => {
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
 
-                  <address className="-mt-0.5 not-italic text-gray-700">213 Lane, London, United Kingdom</address>
+                  <address className="-mt-0.5 not-italic text-gray-300">213 Lane, London, United Kingdom</address>
                 </li>
               </ul>
             </div>
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-gray-900">About Us</p>
+              <p className="text-lg font-medium text-white">About Us</p>
 
               <nav aria-label="Footer About Nav" className="mt-8">
                 <ul className="space-y-4 text-sm">
                   <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="www.history.com">
+                    <a className="text-gray-300 transition hover:text-gray-400" href="www.history.com">
                       Company History
                     </a>
                   </li>
 
                   <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="www.team.com">
+                    <a className="text-gray-300 transition hover:text-gray-400" href="www.team.com">
                       Meet the Team
                     </a>
                   </li>
 
                   <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="www.employee.com">
+                    <a className="text-gray-300 transition hover:text-gray-400" href="www.employee.com">
                       Employee Handbook
                     </a>
                   </li>
 
                   <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="www.careers.com">
+                    <a className="text-gray-300 transition hover:text-gray-400" href="www.careers.com">
                       Careers
                     </a>
                   </li>
@@ -131,30 +119,30 @@ const Footer = () => {
               </nav>
             </div>
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-gray-900">Our Services</p>
+              <p className="text-lg font-medium text-white">Our Services</p>
 
               <nav aria-label="Footer Services Nav" className="mt-8">
                 <ul className="space-y-4 text-sm">
                   <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="www.webdevelopment.com">
+                    <a className="text-gray-300 transition hover:text-gray-400" href="www.webdevelopment.com">
                       Web Development
                     </a>
                   </li>
 
                   <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="www.webdesign.com">
+                    <a className="text-gray-300 transition hover:text-gray-400" href="www.webdesign.com">
                       Web Design
                     </a>
                   </li>
 
                   <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="www.marketing.com">
+                    <a className="text-gray-300 transition hover:text-gray-400" href="www.marketing.com">
                       Marketing
                     </a>
                   </li>
 
                   <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="www.googleads.com">
+                    <a className="text-gray-300 transition hover:text-gray-400" href="www.googleads.com">
                       Google Ads
                     </a>
                   </li>
@@ -162,25 +150,25 @@ const Footer = () => {
               </nav>
             </div>
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-gray-900">Helpful Links</p>
+              <p className="text-lg font-medium text-white">Helpful Links</p>
 
               <nav aria-label="Footer Helpful Nav" className="mt-8">
                 <ul className="space-y-4 text-sm">
                   <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="www.faq.com">
+                    <a className="text-gray-300 transition hover:text-gray-400" href="www.faq.com">
                       FAQs
                     </a>
                   </li>
 
                   <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="www.support.com">
+                    <a className="text-gray-300 transition hover:text-gray-400" href="www.support.com">
                       Support
                     </a>
                   </li>
 
                   <li>
                     <a className="group flex justify-center gap-1.5 sm:justify-start" href="www.livechat.com">
-                      <span className="text-gray-700 transition group-hover:text-gray-700/75">Live Chat</span>
+                      <span className="text-gray-300 transition hover:text-gray-400">Live Chat</span>
 
                       <span className="relative -mr-2 flex h-2 w-2">
                         <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"></span>
@@ -193,12 +181,12 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="mt-16 border-t border-gray-100 pt-6 sm:flex sm:items-center sm:justify-between">
-            <p className="text-center text-sm text-gray-500 sm:text-left">Copyright &copy; 2022. All rights reserved.</p>
+          <div className="mt-16 border-t-2 border-gray-800 pt-6 sm:flex sm:items-center sm:justify-between">
+            <p className="text-center text-sm text-white sm:text-left">Copyright &copy; 2022. All rights reserved.</p>
 
             <ul className="mt-4 flex justify-center gap-6 sm:mt-0 sm:justify-start">
               <li>
-                <a href="/" rel="noreferrer" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                <a href="/" rel="noreferrer" target="_blank" className="text-gray-300 transition hover:text-gray-400">
                   <span className="sr-only">Facebook</span>
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path
@@ -211,7 +199,7 @@ const Footer = () => {
               </li>
 
               <li>
-                <a href="/" rel="noreferrer" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                <a href="/" rel="noreferrer" target="_blank" className="text-gray-300 transition hover:text-gray-400">
                   <span className="sr-only">Instagram</span>
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path
@@ -224,7 +212,7 @@ const Footer = () => {
               </li>
 
               <li>
-                <a href="/" rel="noreferrer" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                <a href="/" rel="noreferrer" target="_blank" className="text-gray-300 transition hover:text-gray-400">
                   <span className="sr-only">Twitter</span>
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
@@ -233,7 +221,7 @@ const Footer = () => {
               </li>
 
               <li>
-                <a href="/" rel="noreferrer" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                <a href="/" rel="noreferrer" target="_blank" className="text-gray-300 transition hover:text-gray-400">
                   <span className="sr-only">GitHub</span>
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path
@@ -246,7 +234,7 @@ const Footer = () => {
               </li>
 
               <li>
-                <a href="/" rel="noreferrer" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                <a href="/" rel="noreferrer" target="_blank" className="text-gray-300 transition hover:text-gray-400">
                   <span className="sr-only">Dribbble</span>
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path
