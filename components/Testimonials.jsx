@@ -15,7 +15,7 @@ const Testimonials = () => {
             <div className="cursor-pointer hover:shadow-md hover:shadow-red-100 duration-300 py-5 px-8 bg-gray-50 rounded-md">
               <div className="h-full text-center ">
                 <img
-                  alt="testimonial"
+                  alt="testimonial" 
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                   src="https://dummyimage.com/305x305"
                 />
