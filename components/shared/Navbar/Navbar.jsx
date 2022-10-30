@@ -40,7 +40,7 @@ const Navbar = () => {
                 Blog
               </li>
             </Link>
-            <Link href="/carrier">
+            <Link href="/portfolio">
               <li className="text-[16px] !text-white font-medium text-primary cursor-pointer">
                 Portfolio
               </li>
@@ -116,7 +116,7 @@ const Navbar = () => {
                 Blog
               </li>
             </Link>
-            <Link href="/carrier">
+            <Link href="/portfolio">
               <li className="text-[16px] font-medium text-primary cursor-pointer">
                 Portfolio
               </li>
