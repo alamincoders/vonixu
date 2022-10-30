@@ -1,7 +1,6 @@
 import Head from "next/head";
 import React from "react";
 import BrandBanner from "../components/BrandBanner";
-import BuildYourBrand from "../components/BuildYourBrand";
 import ContactMe from "../components/ContactMe";
 import DesignServices from "../components/DesignServices";
 import FreeSession from "../components/FreeSession";
@@ -24,15 +23,15 @@ const portfolio = () => {
 
       <main className="relative pt-24">
         <WebConversation />
-        <OurPortfolio/>
-        <Testimonials/>
+        <OurPortfolio />
+        <Testimonials />
         <DesignServices />
-        <BuildYourBrand />
+        <BrandBanner />
         <WebsiteInclude />
-        <OurProcess/>
+        <OurProcess />
         <Pricing />
         <WhatMakeUs />
-        <FreeSession/>
+        <FreeSession />
         <ContactMe />
       </main>
     </>
