@@ -16,7 +16,7 @@ const AboutUs = () => {
 
         <div className="bg-secondary rounded-xl mt-14 p-2">
           <iframe
-            className=" min-w-full block md:hidden lg:block  lg:min-w-[350px] xl:min-w-[1105px]  min-h-[200px] lg:min-h-[550px]  rounded-xl"
+            className=" min-w-full block md:hidden lg:block  lg:min-w-[880px] xl:min-w-[1105px]  min-h-[200px] lg:min-h-[550px]  rounded-xl"
             src="https://www.youtube.com/embed/A_AC9yn2leA"
             title="YouTube video player"
             frameBorder="0"
