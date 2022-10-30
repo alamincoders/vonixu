@@ -42,6 +42,22 @@ import portfolio5 from '../assets/portfolio/portfolio5.png'
 import portfolio6 from '../assets/portfolio/portfolio6.png' 
 
 
+// Blogs Image Import
+import blog1 from '../assets/blog/blog1.jpg'
+import blog2 from '../assets/blog/blog2.png'
+import blog3 from '../assets/blog/blog3.png'
+import blog4 from '../assets/blog/blog4.jpg'
+import blog5 from '../assets/blog/blog5.jpg'
+import blog6 from '../assets/blog/blog6.png'
+import blog7 from '../assets/blog/blog7.png'
+import blog8 from '../assets/blog/blog8.png'
+import blog9 from '../assets/blog/blog9.jpg'
+import blog10 from '../assets/blog/blog10.png'
+import blog11 from '../assets/blog/blog11.png'
+import blog12 from '../assets/blog/blog12.jpg'
+import profile from '../assets/blog/profile.png'
+
+
 
 
 // Featured Data
@@ -350,5 +366,94 @@ export const PortfolioData = [
     id: 6,
     image:  portfolio6,
     
+  },
+];
+
+// Blogs Data
+export const BLogsData = [
+  {
+    id: 1,
+    image: blog1,
+    title: "Scammer Threatens Site Owners for Backlinks",
+    name: "Written by Sharif Hossain Syeed",
+    profile: profile,
+  },
+  {
+    id: 2,
+    image: blog2,
+    title: "How to Plan a Marketing Budget in 2022",
+    name: "Written by Tariqul Islam",
+    profile: profile,
+  },
+  {
+    id: 3,
+    image: blog3,
+    title: "10 Types of Creative Content Marketing and Why They Work",
+    name: "Written by Tariqul Islam",
+    profile: profile,
+  },
+  {
+    id: 4,
+    image: blog4,
+    title: "How To Become a Creative Director (or Art Director) in Bangladesh?",
+    name: "Written by Sharif Hossain Syeed",
+    profile: profile,
+  },
+  {
+    id: 5,
+    image: blog5,
+    title: "Most Reviewed Design Company in Bangladesh by The Manifest",
+    name: "Written by Sharif Hossain Syeed",
+    profile: profile,
+  },
+  {
+    id: 6,
+    image: blog6,
+    title: "8 Essential Elements of an Effective Corporate Video",
+    name: "Written by Tariqul Islam",
+    profile: profile,
+  },
+  {
+    id: 7,
+    image: blog7,
+    title: "A Beginners Guide to Adobe Photoshop In 2022 (+ With Illustration)",
+    name: "Written by Tariqul Islam",
+    profile: profile,
+  },
+  {
+    id: 8,
+    image: blog8,
+    title: "What is Influencer Marketing, and 7 Reasons Why It Works?",
+    name: "Written by Tariqul Islam",
+    profile: profile,
+  },
+  {
+    id: 9,
+    image: blog9,
+    title: "6 Best Vector Graphic Software",
+    name: "Written by Tariqul Islam",
+    profile: profile,
+  },
+  {
+    id: 10,
+    image: blog10,
+    title:
+      "Clipping Path vs Masking: What’s The Difference [Step-by-Step Guide]",
+    name: "Written by Tariqul Islam",
+    profile: profile,
+  },
+  {
+    id: 11,
+    image: blog11,
+    title: "How To Write Quality Content",
+    name: "Written by Nahid Hasan",
+    profile: profile,
+  },
+  {
+    id: 12,
+    image: blog12,
+    title: "How to Show Up In Google Maps: An Optimization Checklist",
+    name: "Written by Sharif Hossain Syeed",
+    profile: profile,
   },
 ];

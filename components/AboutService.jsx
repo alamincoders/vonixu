@@ -10,7 +10,7 @@ const AboutService = () => {
       <div className="relative container py-20 bg-gray-50 rounded-2xl  ">
         <div className="flex flex-col-reverse md:flex-row lg:flex-row text-center lg:text-start lg:justify-between  space-x-0 md:space-x-4  lg:space-x-8  items-center  px-5 lg:px-20">
           <div className="mt-5">
-            <h1 className="text-3xl lg:text-[62px] text-primary font-semibold">Digital Marketing</h1>
+            <h1 className="text-3xl lg:text-[62px] leading-[60px] text-primary font-semibold">Digital Marketing</h1>
             <p className="text-[17px] mt-10">
               We provide a complete digital marketing <br /> solution for all sorts of business.
             </p>
