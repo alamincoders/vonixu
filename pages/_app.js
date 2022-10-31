@@ -4,7 +4,7 @@ import Router from "next/router";
 import Nprogress from "nprogress";
 import Layout from "../components/Layout";
 import "../styles/globals.css";
-import whatsApp from '../assets/whatsApp.gif'
+import whatsApp from '../assets/whatsApp.png'
 
 function MyApp({ Component, pageProps }) {
   Nprogress.configure({ showSpinner: false });
