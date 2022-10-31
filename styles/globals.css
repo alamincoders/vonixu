@@ -99,3 +99,10 @@ li {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to top, #022f6a, #fc8121);
 }
+
+/* WhatsApp Chat */
+.whatsApp{
+  position: fixed;
+  bottom: 10px;
+  left: 5px;
+}

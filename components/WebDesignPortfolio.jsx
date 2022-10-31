@@ -11,7 +11,7 @@ const WebDesignPortfolio = () => {
           <span className="text-secondary ">Portfolio</span>
         </h1>
 
-        <div className="w-[240px] h-1 bg-primary border-0 rounded-2xl "></div>
+        <div className="w-[65px] h-1 bg-primary border-0 rounded-2xl "></div>
 
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 py-10">
           {PortfolioData.map((image) => (
