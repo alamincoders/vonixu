@@ -16,9 +16,9 @@ const WebDesignPortfolio = () => {
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 py-10">
           {PortfolioData.map((image) => (
             <div key={image.id}>
-              <div className="cursor-pointer ">
+              <div className="cursor-pointer overflow-hidden w-[320px] h-[320px] mx-auto">
                 <Image
-                  className="w-[70px] h-[70px]"
+                  className="w-full h-full duration-400 transition-all hover:scale-110 "
                   src={image.image}
                   alt="include"
                 />

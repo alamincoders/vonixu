@@ -1,7 +1,8 @@
 import Head from "next/head";
 import React from "react";
+import Blog from "../components/Blog";
 
-const Blog = () => {
+const blog = () => {
   return (
     <>
       <Head>
@@ -10,9 +11,13 @@ const Blog = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="relative pt-24">Blog</main>
+      <main className="relative pt-24">
+         
+         <Blog/>
+
+      </main>
     </>
   );
 };
 
-export default Blog;
+export default blog;
