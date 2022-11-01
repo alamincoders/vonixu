@@ -1,8 +1,10 @@
 import Head from "next/head";
+import Image from "next/image";
 import Router from "next/router";
 import Nprogress from "nprogress";
 import Layout from "../components/Layout";
 import "../styles/globals.css";
+import whatsApp from '../assets/whatsApp.png'
 
 function MyApp({ Component, pageProps }) {
   Nprogress.configure({ showSpinner: false });
@@ -25,8 +27,15 @@ function MyApp({ Component, pageProps }) {
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
-        
       </Head>
+
+      <main>
+        <div className=" whatsApp ">
+          <a href="https://wa.me/01619816171" target="_blank" rel="noreferrer">
+            <Image width={60} height={60} src={whatsApp} alt="whatsApp" />
+          </a>
+        </div>
+      </main>
 
       <Layout>
         <Component {...pageProps} />

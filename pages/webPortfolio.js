@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
+import PortfolioBanner from '../components/PortfolioBanner';
 import WebDesignPortfolio from '../components/WebDesignPortfolio';
 
 const webPortfolio = () => {
@@ -12,6 +13,7 @@ const webPortfolio = () => {
       </Head>
 
  <main className="relative pt-24">
+   <PortfolioBanner/>
    <WebDesignPortfolio/>
  </main>
 
