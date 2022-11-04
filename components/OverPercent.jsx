@@ -12,13 +12,13 @@ const OverPercent = () => {
               hours
             </p>
           </div>
-          <div className='text-white' >
+          <div className='text-white text-center ' >
             <h1 className="text-3xl font-semibold">82%</h1>
             <p className="text-[15px] mt-3 ">
               of people use their phones to conduct near me searches
             </p>
           </div>
-          <div className='text-white' >
+          <div className='text-white text-center ' >
             <h1 className="text-3xl font-semibold">97%</h1>
             <p className="text-[15px] mt-3 ">
               of individuals searched online to find a local business

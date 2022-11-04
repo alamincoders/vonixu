@@ -7,6 +7,7 @@ import BrandBanner from "../components/BrandBanner";
 import ContactMe from "../components/ContactMe";
 import OurValues from "../components/OurValues";
 import OverPercent from "../components/OverPercent";
+import SEOBenefits from "../components/SEOBenefits";
 import TeamMember from "../components/TeamMember";
 import Testimonials from "../components/Testimonials";
 import WhatSEO from "../components/WhatSEO";
@@ -23,6 +24,7 @@ const seoService = () => {
       <main className="relative pt-24">
         <OverPercent />
         <WhatSEO/>
+        <SEOBenefits/>
       </main>
     </>
   );
