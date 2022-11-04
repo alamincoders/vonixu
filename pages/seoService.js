@@ -9,6 +9,7 @@ import OurValues from "../components/OurValues";
 import OverPercent from "../components/OverPercent";
 import TeamMember from "../components/TeamMember";
 import Testimonials from "../components/Testimonials";
+import WhatSEO from "../components/WhatSEO";
 
 const seoService = () => {
   return (
@@ -21,6 +22,7 @@ const seoService = () => {
 
       <main className="relative pt-24">
         <OverPercent />
+        <WhatSEO/>
       </main>
     </>
   );
