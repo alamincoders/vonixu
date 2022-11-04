@@ -1,8 +1,10 @@
-const Links = [
+
+// Services
+export const Links = [
   {
     name: "Services",
-    submenu: true,
-    sublinks: [
+    submenu: true,   
+    sublinks: [ 
       {
         Head: "SEO",
         sublink: [
@@ -62,4 +64,45 @@ const Links = [
   },
 ];
 
-export default Links;
+
+// About
+export const AboutLinks = [
+  {
+    name: "About",
+    submenu: true,   
+    sublinks: [ 
+      {
+        Head: "Agency",
+        sublink: [
+          { name: "", link: "/" }
+        ],
+      },
+      {
+        Head: "Our CEO ",
+        sublink: [
+          { name: "", link: "/" }
+        ],
+      },
+      {
+        Head: "Our Team",
+        sublink: [
+          { name: "", link: "/" },
+        ],
+      },
+
+      {
+        Head: "Our Process",
+        sublink: [
+          { name: "", link: "/" }
+        ],
+      },
+
+      {
+        Head: "FAQs",
+        sublink: [
+          { name: "", link: "/" }
+        ],
+      }
+    ],
+  },
+];
