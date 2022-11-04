@@ -1,15 +1,23 @@
-import Image from 'next/image';
-import capture from '../assets/services/Capture.png'
-import attractPeople from '../assets/services/AttractPeople.png'
-import increase from '../assets/services/Increase.png'
+import Image from "next/image";
+import capture from "../assets/services/Capture.png";
+import attractPeople from "../assets/services/AttractPeople.png";
+import increase from "../assets/services/Increase.png";
 
 const SEOBenefits = () => {
   return (
     <>
       <section className="py-16 text-center container ">
+        <h1 className="text-center text-4xl pb-16 text-primary">
+          Affordable Local SEO Services Benefits
+        </h1>
         <div className=" grid md:grid-cols-3 justify-center space-x-10  space-y-5 md:space-y-0 items-center  ">
           <div className="text-center ">
-            <Image src={capture} alt="" />
+            <Image
+              className="bg-[#c4c4c434]  rounded-full "
+              src={capture}
+              alt=""
+            />
+
             <h1 className="text-xl mb-3 mt-5 text-primary   font-semibold">
               Capture Low Hanging Fruit
             </h1>
@@ -20,7 +28,12 @@ const SEOBenefits = () => {
             </p>
           </div>
           <div className=" text-center">
-            <Image src={attractPeople} alt="" />
+            <Image
+              className="bg-[#c4c4c434]  rounded-full "
+              src={attractPeople}
+              alt=""
+            />
+
             <h1 className="text-xl mb-3 mt-5 text-primary   font-semibold">
               Attract Targeted Customers
             </h1>
@@ -31,7 +44,12 @@ const SEOBenefits = () => {
             </p>
           </div>
           <div className=" text-center">
-            <Image src={increase} alt="" />
+            <Image
+              className="bg-[#c4c4c434]  rounded-full "
+              src={increase}
+              alt=""
+            />
+
             <h1 className="text-xl mb-3 mt-5 text-primary   font-semibold">
               Increase Brand Recognition
             </h1>

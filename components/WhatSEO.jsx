@@ -1,12 +1,10 @@
-import Image from 'next/image';
-import seo from '../assets/services/whatseo.png'
+import Image from "next/image";
+import seo from "../assets/services/whatseo.png";
 
 const WhatSEO = () => {
   return (
     <>
       <section className="container py-10">
-       
-
         <div className=" grid grid-col-1 lg:grid-cols-2 gap-y-8">
           <div className="w-5/6 bg-gray-50 rounded-tl-[40px] p-6 mx-auto">
             <Image src={seo} alt="" />
