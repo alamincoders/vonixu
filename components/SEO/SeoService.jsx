@@ -3,6 +3,7 @@ import React from "react";
 import OverPercent from "./OverPercent";
 import SEOApproach from "./SEOApproach";
 import SEOBenefits from "./SEOBenefits";
+import SeoFormBanner from "./SeoFormBanner";
 import WhatSEO from "./WhatSEO";
 
 const SeoService = () => {
@@ -15,6 +16,7 @@ const SeoService = () => {
       </Head>
 
       <main className="relative pt-24">
+        <SeoFormBanner />
         <OverPercent />
         <WhatSEO />
         <SEOBenefits />

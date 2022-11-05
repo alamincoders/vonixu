@@ -11,7 +11,7 @@ const Services = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">
+      <main className="relative pt-24">
         <SeoService />
       </main>
     </>
