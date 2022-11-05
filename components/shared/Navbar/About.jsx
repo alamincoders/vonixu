@@ -27,7 +27,7 @@ const About = ({ open, setOpen }) => {
             </h1>
             {link?.submenu && (
               <div>
-                <div className="absolute w-[150px] left-[67%] top-10 hidden duration-500 transition-opacity group-hover:md:block hover:md:block ">
+                <div className="absolute w-[150px] left-[53%] top-10 hidden duration-500 transition-opacity group-hover:md:block hover:md:block ">
                   <div className="py-3">
                     <div
                       className="w-4 h-4 left-[18%] absolute 
@@ -35,21 +35,33 @@ const About = ({ open, setOpen }) => {
                     ></div>
                   </div>
                   <div className="bg-gray-50 border-2 shadow-lg rounded-lg p-4">
-                    {link?.sublinks?.map((mysublinks, i) => (
-                      <div key={i}>
-                        <h1 className="text-base text-primary font-semibold">{mysublinks.Head}</h1>
-                        {mysublinks?.sublink?.map((slink, i) => (
-                          <li
-                            key={i}
-                            className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5"
-                          >
-                            <Link href={slink.link} className="hover:text-primary">
-                              {slink.name}
-                            </Link>
-                          </li>
-                        ))}
-                      </div>
-                    ))}
+                    <ul>
+                      <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
+                        <Link href="/agency" className="hover:text-primary">
+                          Agency
+                        </Link>
+                      </li>
+                      <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
+                        <Link href="/ceo" className="hover:text-primary">
+                          Our CEO
+                        </Link>
+                      </li>{" "}
+                      <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
+                        <Link href="/team" className="hover:text-primary">
+                          Our Team
+                        </Link>
+                      </li>
+                      <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
+                        <Link href="/process" className="hover:text-primary">
+                          Our Process
+                        </Link>
+                      </li>{" "}
+                      <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
+                        <Link href="/faq" className="hover:text-primary">
+                          FAQs
+                        </Link>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>

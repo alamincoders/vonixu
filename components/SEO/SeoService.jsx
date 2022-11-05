@@ -4,6 +4,7 @@ import OverPercent from "./OverPercent";
 import SEOApproach from "./SEOApproach";
 import SEOBenefits from "./SEOBenefits";
 import SeoFormBanner from "./SeoFormBanner";
+import Testimonials from "./Testimonials";
 import WhatSEO from "./WhatSEO";
 
 const SeoService = () => {
@@ -21,6 +22,7 @@ const SeoService = () => {
         <WhatSEO />
         <SEOBenefits />
         <SEOApproach />
+        <Testimonials />
       </main>
     </>
   );
