@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import testimonialImg from "../../assets/services/seio.png";
+import testimonialImg from "../../assets/services/testimonial-ironoak.webp";
 
 const Testimonials = () => {
   return (
@@ -18,7 +18,7 @@ const Testimonials = () => {
             teams. I feel wonderful about working with Manta and as my business grows, I plan for them to grow with me.”
           </p>
           <div className="flex items-center space-x-4">
-            <h3 className="text-primary font-bold mt-7">Brent W., Iron Oak Fitness LLC</h3>
+            <h3 className="text-primary font-bold mt-7 drop-shadow-lg">Brent W., Iron Oak Fitness LLC</h3>
             <div className="flex items-center  mt-7">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
