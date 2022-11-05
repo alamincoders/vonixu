@@ -1,7 +1,7 @@
 import Image from "next/image";
-import capture from "../assets/services/Capture.png";
-import attractPeople from "../assets/services/AttractPeople.png";
-import increase from "../assets/services/Increase.png";
+import capture from "../../assets/services/Capture.png";
+import attractPeople from "../../assets/services/AttractPeople.png";
+import increase from "../../assets/services/Increase.png";
 
 const SEOBenefits = () => {
   return (

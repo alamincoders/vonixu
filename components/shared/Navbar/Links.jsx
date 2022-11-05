@@ -1,14 +1,13 @@
-
 // Services
 export const Links = [
   {
     name: "Services",
-    submenu: true,   
-    sublinks: [ 
+    submenu: true,
+    sublinks: [
       {
         Head: "SEO",
         sublink: [
-          { name: "SEO Service", link: "/seoService" },
+          { name: "SEO Service", link: "/services" },
           { name: "E-commerce SEO", link: "/" },
           { name: "Local SEO", link: "/" },
           { name: "SEO Audit Service", link: "/" },
@@ -64,45 +63,33 @@ export const Links = [
   },
 ];
 
-
 // About
 export const AboutLinks = [
   {
     name: "About",
-    submenu: true,   
-    sublinks: [ 
+    submenu: true,
+    sublinks: [
       {
         Head: "Agency",
-        sublink: [
-          { name: "", link: "/" }
-        ],
       },
       {
         Head: "Our CEO ",
-        sublink: [
-          { name: "", link: "/" }
-        ],
+        sublink: [{ name: "", link: "/" }],
       },
       {
         Head: "Our Team",
-        sublink: [
-          { name: "", link: "/" },
-        ],
+        sublink: [{ name: "", link: "/" }],
       },
 
       {
         Head: "Our Process",
-        sublink: [
-          { name: "", link: "/" }
-        ],
+        sublink: [{ name: "", link: "/" }],
       },
 
       {
         Head: "FAQs",
-        sublink: [
-          { name: "", link: "/" }
-        ],
-      }
+        sublink: [{ name: "", link: "/" }],
+      },
     ],
   },
 ];

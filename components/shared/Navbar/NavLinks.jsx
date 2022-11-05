@@ -11,7 +11,7 @@ const NavLinks = ({ open, setOpen }) => {
         <div key={i}>
           <div className="pr-4 md:pr-1 lg:pr-0 text-left md:cursor-pointer group">
             <h1
-              className={` flex justify-start  space-x-2 items-center  group ${open ? "text-primary" : "text-white"}`}
+              className={` flex justify-start  space-x-2 items-center  group ${open ? "text-primary" : "text-primary"}`}
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");

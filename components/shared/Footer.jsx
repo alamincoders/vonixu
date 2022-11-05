@@ -10,7 +10,7 @@ const Footer = () => {
           <div className=" grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-6">
             {" "}
             <div className="text-center sm:text-left md:col-span-4 lg:col-span-2">
-              <div className="flex justify-center text-teal-600   rounded-2xl sm:justify-start">
+              <div className="flex p-4 bg-white justify-center text-teal-600   rounded-2xl sm:justify-start">
                 <Image src={logo} alt="" />
               </div>
 

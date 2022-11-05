@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import SeoService from "../components/SEO/SeoService";
 
 const Services = () => {
   return (
@@ -10,7 +11,9 @@ const Services = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="relative pt-24">Services</main>
+      <main className="">
+        <SeoService />
+      </main>
     </>
   );
 };

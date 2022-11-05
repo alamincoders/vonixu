@@ -1,5 +1,5 @@
 import Image from "next/image";
-import seo from "../assets/services/whatseo.png";
+import seo from "../../assets/services/whatseo.png";
 
 const WhatSEO = () => {
   return (

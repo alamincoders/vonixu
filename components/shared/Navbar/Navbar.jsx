@@ -10,7 +10,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [showModal, setShowModal] = React.useState(false);
   return (
-    <nav className="bg-[#081A3E] py-2 border-gray-50/70 border-gray-100  fixed w-full top-0 z-[999]">
+    <nav className="bg-white py-2 border-gray-50/70 border-gray-100  fixed w-full top-0 z-[999]">
       <div className=" container flex justify-between items-center relative">
         <div className="z-50 md:w-auto w-full flex justify-between items-center">
           <Link href="/">
@@ -24,29 +24,26 @@ const Navbar = () => {
         <div className="md:flex hidden  items-center gap-8">
           <ul className="inline-flex  space-x-5">
             <Link href="/">
-              <li className="text-[16px] !text-white font-medium text-primary cursor-pointer">Home</li>
+              <li className="text-[16px]  font-medium text-primary cursor-pointer">Home</li>
             </Link>
           </ul>
 
           <NavLinks />
 
           <ul className="inline-flex space-x-5">
-            <Link href="/about">
-              <li className="text-[16px] !text-white font-medium text-primary cursor-pointer">About Us</li>
+            <Link href="/portfolio">
+              <li className="text-[16px]  font-medium text-primary cursor-pointer">Portfolio</li>
             </Link>
             <Link href="/blog">
-              <li className="text-[16px] !text-white font-medium text-primary cursor-pointer">Blog</li>
-            </Link>
-            <Link href="/portfolio">
-              <li className="text-[16px] !text-white font-medium text-primary cursor-pointer">Portfolio</li>
-            </Link>
-            <Link href="/contact">
-              <li className="text-[16px] !text-white font-medium text-primary cursor-pointer">Contact Us</li>
+              <li className="text-[16px]  font-medium text-primary cursor-pointer">Blog</li>
             </Link>
           </ul>
-
-         <About/>
-
+          <About />
+          <ul className="inline-flex">
+            <Link href="/contact">
+              <li className="text-[16px] font-medium text-primary cursor-pointer">Contact Us</li>
+            </Link>
+          </ul>
         </div>
         <div className="md:block hidden">
           <button
