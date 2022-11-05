@@ -4,6 +4,7 @@ import Script from "next/script";
 import React, { useState } from "react";
 import logo from "../../../assets/logo/web/png.png";
 import Button from "../Button";
+import About from "./About";
 import NavLinks from "./NavLinks";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -43,6 +44,9 @@ const Navbar = () => {
               <li className="text-[16px] !text-white font-medium text-primary cursor-pointer">Contact Us</li>
             </Link>
           </ul>
+
+         <About/>
+
         </div>
         <div className="md:block hidden">
           <button
@@ -193,6 +197,7 @@ const Navbar = () => {
               <li className="text-[16px] font-medium text-primary cursor-pointer">Contact Us </li>
             </Link>
           </ul>
+          <About setOpen={setOpen} open={open} />
         </div>
       </div>
     </nav>

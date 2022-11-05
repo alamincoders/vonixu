@@ -3,6 +3,9 @@ import telephone from "../assets/logo/talephone.png";
 
 const BuildYourBrand = () => {
   return (
+
+    <>
+    
     <section className="bg-primary py-16 text-center">
  
         <div className=" grid md:grid-cols-3 justify-center  space-y-5 md:space-y-0 items-center  ">
@@ -25,6 +28,7 @@ const BuildYourBrand = () => {
         </div>
    
     </section>
+    </>
   );
 };
 
