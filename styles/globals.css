@@ -109,13 +109,13 @@ li {
 }
 
 #nprogress .bar {
-  background: red !important;
+  background: linear-gradient(to top, #022f6a, #fc8121);
   padding: 0 10px !important;
   height: 4px !important;
   border-end-end-radius: 30%;
 }
 
 #nprogress .spinner .spinner-icon {
-  border-top-color: red !important;
-  border-left-color: red !important;
+  border-top-color: #2278de !important;
+  border-left-color: #2278de !important;
 }
