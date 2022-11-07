@@ -9,7 +9,7 @@ const SeoFormBanner = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-2">
         <div>
           <h2 className="font-semibold text-4xl text-primary mb-5">Affordable Local SEO</h2>
-          <p className="text-primary mb-5">
+          <p className="text-primary mb-5"> 
             Manta has ranked millions of local businesses in the top 10 of Google for over 20 years with our affordable local SEO services. We help
             businesses get found by a large local audience to increase both leads and sales. Learn how our local SEO services can help you find new
             customers today!

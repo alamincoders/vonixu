@@ -7,8 +7,8 @@ export const Links = [
       {
         Head: "SEO",
         sublink: [
-          { name: "SEO Service", link: "/services" },
-          { name: "E-commerce SEO", link: "/" },
+          { name: "SEO Service", link: "/seoServices" },
+          { name: "E-commerce SEO", link: "/eCommarceSeo" },
           { name: "Local SEO", link: "/" },
           { name: "SEO Audit Service", link: "/" },
           { name: "Amazon SEO Service", link: "/" },
@@ -39,8 +39,9 @@ export const Links = [
         sublink: [
           { name: "Dynamic Website", link: "/" },
           { name: "E-commerce Website", link: "/" },
-          { name: "Website Speed Optimization ", link: "/" },
-          { name: "Website Maintenance Service", link: "/" },
+          { name: "Website Development Service", link: "/" },
+          { name: "Convert Figma To React", link: "/" },
+          { name: "MERN Stack Development", link: "/" },
         ],
       },
 

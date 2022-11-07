@@ -8,7 +8,7 @@ const Testimonials = () => {
       <div className="flex justify-center items-center space-x-8">
         <div className="text-center ">
           <Image width={300} height={300} className="rounded-md" src={testimonialImg} alt="" />
-        </div>
+        </div> 
         <div className="w-full lg:w-[600px]">
           <h2 className="text-primary text-4xl font-semibold mb-7">Manta Testimonial</h2>
           <p className="text-gray-500 text-[13px]">

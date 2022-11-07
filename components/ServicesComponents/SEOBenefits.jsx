@@ -8,7 +8,7 @@ const SEOBenefits = () => {
     <>
       <section className="py-16 text-center container ">
         <h1 className="text-center text-4xl pb-16 text-primary">
-          Affordable Local SEO Services Benefits
+          Affordable Local SEO Services Benefits 
         </h1>
         <div className=" grid md:grid-cols-3 justify-center space-x-10  space-y-5 md:space-y-0 items-center  ">
           <div className="text-center ">
