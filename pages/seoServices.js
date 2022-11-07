@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React from "react";
-import SeoService from "../components/SeoService/SeoService";
+import SeoService from "../components/SEO/SeoService";
 
 const seoServices = () => {
   return (
@@ -12,7 +12,7 @@ const seoServices = () => {
       </Head>
 
       <main className="relative pt-24">
-        <SeoService/>
+        <SeoService />
       </main>
     </>
   );

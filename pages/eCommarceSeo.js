@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React from "react";
-import ECommerceSEO from "../components/ECommerceSEO/ECommerceSEO";
+import ECommerceSEO from "../components/SEO/ECommerceSEO";
 
 const eCommerceSeo = () => {
   return (
@@ -12,7 +12,7 @@ const eCommerceSeo = () => {
       </Head>
 
       <main className="relative pt-24">
-       <ECommerceSEO/>
+        <ECommerceSEO />
       </main>
     </>
   );

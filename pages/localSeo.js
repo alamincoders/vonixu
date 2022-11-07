@@ -1,5 +1,5 @@
 import Head from "next/head";
-import LocalSeo from "../components/LocalSeo/LocalSeo";
+import LocalSeo from "../components/SEO/LocalSeo";
 
 const localSeo = () => {
   return (
