@@ -9,6 +9,7 @@ const SEOApproach = ({
   title5,
   title6,
   title7,
+  title8,
   p1,
   p2,
   p3
