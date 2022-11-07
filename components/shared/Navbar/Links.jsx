@@ -9,8 +9,8 @@ export const Links = [
         sublink: [
           { name: "SEO Service", link: "/seoServices" },
           { name: "E-commerce SEO", link: "/eCommarceSeo" },
-          { name: "Local SEO", link: "/" },
-          { name: "SEO Audit Service", link: "/" },
+          { name: "Local SEO", link: "/localSeo" },
+          { name: "SEO Audit Service", link: "/seoAuditService" },
           { name: "Amazon SEO Service", link: "/" },
           { name: "Shopify SEO Service", link: "/" },
           { name: "Dropshipping Optimization Service", link: "/" },
