@@ -26,42 +26,57 @@ export const Links = [
       {
         Head: "Digital Marketing",
         sublink: [
-          { name: "Digital Marketing Service", link: "/" },
-          { name: "Social Media Management", link: "/" },
-          { name: "YouTube Marketing Service", link: "/" },
-          { name: "Google Ads Management", link: "/" },
-          { name: "Ecom. PPC Ad Management", link: "/" },
-          { name: "Content Writing Service", link: "/" },
-          { name: "Blog Writing Service", link: "/" },
-          { name: "Product Review Writing Service", link: "/" },
-          { name: "Social Media Content Creation", link: "/" },
+          {
+            name: "Digital Marketing Service",
+            link: "/digitalMarketingService",
+          },
+          { name: "Social Media Management", link: "/socialMediaManagement" },
+          {
+            name: "YouTube Marketing Service",
+            link: "/youTubeMarketingService",
+          },
+          { name: "Google Ads Management", link: "/googleAdsManagement" },
+          { name: "Ecom. PPC Ad Management", link: "/ecomPPCAdManagement" },
+          { name: "Content Writing Service", link: "/contentWritingService" },
+          { name: "Blog Writing Service", link: "/blogWritingService" },
+          {
+            name: "Product Review Writing Service",
+            link: "/productReviewWritingService",
+          },
+          {
+            name: "Social Media Content Creation",
+            link: "/socialMediaContentCreation",
+          },
         ],
       },
       {
         Head: "Web Design & Development",
         sublink: [
-          { name: "Dynamic Website", link: "/" },
-          { name: "E-commerce Website", link: "/" },
-          { name: "Website Development Service", link: "/" },
-          { name: "Convert Figma To React", link: "/" },
-          { name: "MERN Stack Development", link: "/" },
+          { name: "Dynamic Website", link: "/dynamicWebsite" },
+          { name: "E-commerce Website", link: "/eCommerceWebsite" },
+          {
+            name: "Website Development Service",
+            link: "/websiteDevelopmentService",
+          },
+          { name: "Convert Figma To React", link: "/convertFigmaToReact" },
+          { name: "MERN Stack Development", link: "/mERNStackDevelopment" },
         ],
       },
 
       {
         Head: "Graphic Design ",
         sublink: [
-          { name: "Image Post Production", link: "/" },
-          { name: "Creative Design Service", link: "/" },
+          { name: "Image Post Production", link: "/imagePostProduction" },
+          { name: "Creative Design Service", link: "/creativeDesignService" },
         ],
       },
       {
         Head: "Video Editing",
-        sublink: [{ name: "Video Editing", link: "/" }],
+        sublink: [{ name: "Video Editing", link: "/videoEditing" }],
       },
       {
         Head: "Total Branding",
-        sublink: [{ name: "Total Branding", link: "/" }],
+        sublink: [{ name: "Total Branding", link: "/totalBranding" }],
       },
     ],
   },
