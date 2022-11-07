@@ -11,13 +11,15 @@ const NavLinks = ({ open, setOpen }) => {
         <div key={i}>
           <div className="pr-4 md:pr-1 lg:pr-0 text-left md:cursor-pointer group">
             <h1
-              className={` flex justify-start  space-x-2 items-center  group ${open ? "text-primary" : "text-primary"}`}
+              className={` flex justify-start  space-x-2 items-center  group ${
+                open ? "text-primary text-[20px] my-2 p-3 bg-[#022f6a1b]" : "text-primary"
+              }`}
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
               }}
             >
-              <li className="text-[16px] font-medium cursor-pointer">{link.name}</li>
+              <li className="font-medium cursor-pointer">{link.name}</li>
               <span className="text-xl md:hidden inline">
                 <ion-icon name={`${heading === link.name ? "chevron-up" : "chevron-down"}`}></ion-icon>
               </span>
@@ -67,7 +69,7 @@ const NavLinks = ({ open, setOpen }) => {
                 <div>
                   <h1
                     onClick={() => (subHeading !== slinks.Head ? setSubHeading(slinks.Head) : setSubHeading(""))}
-                    className="py-1 pl-7 font-semibold md:pr-0 text-primary pr-5 flex justify-start space-x-2 items-center"
+                    className="py-1 pl-7  font-semibold md:pr-0 text-primary pr-5 flex justify-start space-x-2 items-center"
                   >
                     {slinks.Head}
 

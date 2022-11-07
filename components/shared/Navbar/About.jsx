@@ -9,15 +9,17 @@ const About = ({ open, setOpen }) => {
     <>
       {AboutLinks.map((link, i) => (
         <div key={i}>
-          <div className="pr-4 md:pr-1 lg:pr-0 text-left md:cursor-pointer group">
+          <div className="pr-4 md:pr-1 lg:pr-0 text-left md:cursor-pointer group ">
             <h1
-              className={` flex justify-start  space-x-2 items-center  group ${open ? "text-primary" : "text-primary"}`}
+              className={` flex justify-start  space-x-2 items-center   group ${
+                open ? "text-primary text-[20px] my-2 p-3 bg-[#022f6a1b]" : "text-primary"
+              }`}
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
               }}
             >
-              <li className="text-[16px] font-medium cursor-pointer">{link.name}</li>
+              <li className=" font-medium cursor-pointer">{link.name}</li>
               <span className="text-xl md:hidden inline">
                 <ion-icon name={`${heading === link.name ? "chevron-up" : "chevron-down"}`}></ion-icon>
               </span>
@@ -74,29 +76,33 @@ const About = ({ open, setOpen }) => {
           `}
           >
             {/* sublinks */}
-            {link.sublinks.map((slinks, i) => (
-              <div key={i}>
-                <div>
-                  <h1
-                    onClick={() => (subHeading !== slinks.Head ? setSubHeading(slinks.Head) : setSubHeading(""))}
-                    className="py-1 pl-7 font-semibold md:pr-0 text-primary pr-5 flex justify-start space-x-2 items-center"
-                  >
-                    {slinks.Head}
-
-                    <span className="text-xl md:mt-1 md:ml-2 inline text-primary">
-                      <ion-icon name={`${subHeading === slinks.Head ? "chevron-up" : "chevron-down"}`}></ion-icon>
-                    </span>
-                  </h1>
-                  <div className={`${subHeading === slinks.Head ? "md:hidden" : "hidden"}`}>
-                    {slinks?.sublink?.map((slink, i) => (
-                      <li onClick={() => setOpen(false)} key={i} className="py-3 pl-14">
-                        <Link href={slink.link}>{slink.name}</Link>
-                      </li>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            ))}
+            <ul className="text-[20px] p-3 ">
+              <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
+                <Link href="/agency" className="hover:text-primary">
+                  Agency
+                </Link>
+              </li>
+              <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
+                <Link href="/ceo" className="hover:text-primary">
+                  Our CEO
+                </Link>
+              </li>{" "}
+              <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
+                <Link href="/team" className="hover:text-primary">
+                  Our Team
+                </Link>
+              </li>
+              <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
+                <Link href="/process" className="hover:text-primary">
+                  Our Process
+                </Link>
+              </li>{" "}
+              <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
+                <Link href="/faq" className="hover:text-primary">
+                  FAQs
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       ))}
