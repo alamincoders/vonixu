@@ -107,3 +107,15 @@ li {
   left: 5px;
   z-index: 1000;
 }
+
+#nprogress .bar {
+  background: red !important;
+  padding: 0 10px !important;
+  height: 4px !important;
+  border-end-end-radius: 30%;
+}
+
+#nprogress .spinner .spinner-icon {
+  border-top-color: red !important;
+  border-left-color: red !important;
+}
