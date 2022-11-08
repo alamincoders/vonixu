@@ -9,7 +9,7 @@ import seo from "../../assets/services/whatseo.png";
 import TestimonialsImg from "../../assets/services/testimonial-ironoak.webp";
 import bImg from "../../assets/services/local.webp";
 
-const SeoService = () => {
+const LocalSeo = () => {
   return (
     <>
       <SeoFormBanner
@@ -67,4 +67,4 @@ const SeoService = () => {
   );
 };
 
-export default SeoService;
+export default LocalSeo;

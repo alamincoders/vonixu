@@ -457,3 +457,8 @@ export const BLogsData = [
     profile: profile,
   },
 ];
+
+
+export const seoServiceData = {
+  
+}

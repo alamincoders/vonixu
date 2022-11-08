@@ -1,15 +1,15 @@
 import React from "react";
 import OverPercent from "../ServicesComponents/OverPercent";
-import SEOApproach from "../ServicesComponents/SEOApproach";
-import SEOBenefits from "../ServicesComponents/SEOBenefits";
 import SeoFormBanner from "../ServicesComponents/SeoFormBanner";
-import Testimonials from "../ServicesComponents/Testimonials";
 import WhatSEO from "../ServicesComponents/WhatSEO";
-import seo from "../../assets/services/whatseo.png";
+import Testimonials from "../ServicesComponents/Testimonials";
+import SEOBenefits from "../ServicesComponents/SEOBenefits";
+import SEOApproach from "../ServicesComponents/SEOApproach";
+import seo from '../../assets/services/whatseo.png';
 import TestimonialsImg from "../../assets/services/testimonial-ironoak.webp";
 import bImg from "../../assets/services/local.webp";
 
-const SeoService = () => {
+const RestaurantSEO = () => {
   return (
     <>
       <SeoFormBanner
@@ -40,7 +40,7 @@ const SeoService = () => {
         title4=" Increase Brand Recognition"
         p1="Local SEO keywords typically have lower competition compared to keywords with a national scope. Local SEO can capture quick wins driving  customers to your local business."
         p2="To capture targeted customers, you need high-intent keywords. Local search can help bring in relevant leads and sales both in-store and online. "
-        p3=" Local search optimization focuses on increasing brand awareness and reputation through directory and citation building, positive online  review, and much more."
+        p3="Local search optimization focuses on increasing brand awareness and reputation through directory and citation building, positive online  review, and much more."
       />
 
       <SEOApproach
@@ -67,4 +67,4 @@ const SeoService = () => {
   );
 };
 
-export default SeoService;
+export default RestaurantSEO;

@@ -1,24 +1,30 @@
 import Image from "next/image";
 import React from "react";
-import testimonialImg from "../../assets/services/testimonial-ironoak.webp";
 
-const Testimonials = () => {
+const Testimonials = ({img, title, p, name}) => {
   return (
     <div className="container mt-16 p-5 bg-gray-50 rounded-2xl">
       <div className="flex justify-center items-center space-x-8">
         <div className="text-center ">
-          <Image width={300} height={300} className="rounded-md" src={testimonialImg} alt="" />
-        </div>
+          <Image width={300} height={300} className="rounded-md" src={img} alt="" />
+        </div> 
         <div className="w-full lg:w-[600px]">
-          <h2 className="text-primary text-4xl font-semibold mb-7">Manta Testimonial</h2>
+          <h2 className="text-primary text-4xl font-semibold mb-7">
+            {/* Manta Testimonial */}
+            {title}
+            </h2>
           <p className="text-gray-500 text-[13px]">
-            “Manta is Amazing. I own a small business and previously had hired an SEO team that I worked with for six months. It was not the best
+            {/* “Manta is Amazing. I own a small business and previously had hired an SEO team that I worked with for six months. It was not the best
             experience. I have been working with Manta for almost 2 months and they have done more in that time than the previous team did at all. I’d
             honestly give more stars if I could. As a small business owner, I don’t have the luxurry of excess capital to waste on poorly performing
-            teams. I feel wonderful about working with Manta and as my business grows, I plan for them to grow with me.”
+            teams. I feel wonderful about working with Manta and as my business grows, I plan for them to grow with me.” */}
+            {p}
           </p>
           <div className="flex items-center space-x-4">
-            <h3 className="text-primary font-bold mt-7 drop-shadow-lg">Brent W., Iron Oak Fitness LLC</h3>
+            <h3 className="text-primary font-bold mt-7 drop-shadow-lg">
+              {/* Brent W., Iron Oak Fitness LLC */}
+              {name}
+              </h3>
             <div className="flex items-center  mt-7">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

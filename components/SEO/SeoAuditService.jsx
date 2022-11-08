@@ -5,11 +5,11 @@ import SEOBenefits from "../ServicesComponents/SEOBenefits";
 import SeoFormBanner from "../ServicesComponents/SeoFormBanner";
 import Testimonials from "../ServicesComponents/Testimonials";
 import WhatSEO from "../ServicesComponents/WhatSEO";
-import seo from "../../assets/services/whatseo.png";
+import seo from '../../assets/services/whatseo.png';
 import TestimonialsImg from "../../assets/services/testimonial-ironoak.webp";
 import bImg from "../../assets/services/local.webp";
 
-const SeoService = () => {
+const SeoAuditService = () => {
   return (
     <>
       <SeoFormBanner
@@ -67,4 +67,4 @@ const SeoService = () => {
   );
 };
 
-export default SeoService;
+export default SeoAuditService;

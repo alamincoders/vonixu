@@ -8,5 +8,5 @@ const Button = ({ title }) => {
     </button>
   );
 };
-
+ 
 export default Button;

@@ -1,15 +1,15 @@
 import React from "react";
 import OverPercent from "../ServicesComponents/OverPercent";
-import SEOApproach from "../ServicesComponents/SEOApproach";
-import SEOBenefits from "../ServicesComponents/SEOBenefits";
 import SeoFormBanner from "../ServicesComponents/SeoFormBanner";
-import Testimonials from "../ServicesComponents/Testimonials";
 import WhatSEO from "../ServicesComponents/WhatSEO";
+import Testimonials from "../ServicesComponents/Testimonials";
+import SEOBenefits from "../ServicesComponents/SEOBenefits";
+import SEOApproach from "../ServicesComponents/SEOApproach";
 import seo from "../../assets/services/whatseo.png";
 import TestimonialsImg from "../../assets/services/testimonial-ironoak.webp";
 import bImg from "../../assets/services/local.webp";
 
-const SeoService = () => {
+const ECommerceWebsite = () => {
   return (
     <>
       <SeoFormBanner
@@ -67,4 +67,4 @@ const SeoService = () => {
   );
 };
 
-export default SeoService;
+export default ECommerceWebsite;

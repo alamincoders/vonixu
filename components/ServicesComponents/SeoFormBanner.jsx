@@ -3,16 +3,20 @@ import React from "react";
 import BImg from "../../assets/services/local.webp";
 import Button from "../shared/Button";
 
-const SeoFormBanner = () => {
+const SeoFormBanner = ({title, p, img}) => {
   return (
     <div className="container mb-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-2">
         <div>
-          <h2 className="font-semibold text-4xl text-primary mb-5">Affordable Local SEO</h2>
-          <p className="text-primary mb-5">
-            Manta has ranked millions of local businesses in the top 10 of Google for over 20 years with our affordable local SEO services. We help
+          <h2 className="font-semibold text-4xl text-primary mb-5">
+            {/* Affordable Local SEO */}
+            {title}
+            </h2>
+          <p className="text-primary mb-5"> 
+            {/* Manta has ranked millions of local businesses in the top 10 of Google for over 20 years with our affordable local SEO services. We help
             businesses get found by a large local audience to increase both leads and sales. Learn how our local SEO services can help you find new
-            customers today!
+            customers today! */}
+            {p}
           </p>
           <div>
             <form className="grid grid-cols-1 lg:grid-cols-2  px-5" action="#">
@@ -83,7 +87,7 @@ const SeoFormBanner = () => {
           </div>
         </div>
         <div className=" mt-5 lg:mt-0 flex flex-col justify-center">
-          <Image className="rounded" src={BImg} alt="" />
+          <Image className="rounded" src={img} alt="" />
         </div>
       </div>
     </div>
