@@ -12,7 +12,7 @@ const SeoFun = () => {
           </div>
           <div className="flex flex-col justify-center ">
             <h1 className=" text-[42px] font-bold">SEO Is Fun!!!</h1>
-            <p className="text-[15px] ">
+            <p className="text-[15px] my-[15px] ">
               Faisal Mustafa is an experienced best SEO expert in Bangladesh
               with more than 10 years of experience in the digital marketing
               industry.

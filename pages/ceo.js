@@ -1,6 +1,8 @@
 import Head from "next/head";
 import React from "react";
 import Banner from "../components/CEO/banner";
+import Entrepreneur from "../components/CEO/Entrepreneur";
+import Experience from "../components/CEO/Experience";
 import SeoFun from "../components/CEO/SeoFun";
 
 
@@ -16,6 +18,8 @@ const ceo = () => {
       <main className="relative pt-24">
         <Banner/>
         <SeoFun/>
+        <Experience/>
+        <Entrepreneur/>
       </main>
     </>
   );
