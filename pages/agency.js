@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
-import Blog from "../components/Blog";
+import AFullService from "../components/Agency/AFullService";
+import Banner from "../components/Agency/Banner";
 
 const agency = () => {
   return (
@@ -12,7 +13,8 @@ const agency = () => {
       </Head>
 
       <main className="relative pt-24">
-        <h1>hello agency</h1>
+        <Banner/>
+        <AFullService/>
       </main>
     </>
   );
