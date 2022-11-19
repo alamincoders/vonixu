@@ -73,23 +73,6 @@ const AskQuestions = () => {
             </p>
           </div>
         </div>
-        <div class="mt-16 text-center">
-          {/* <a
-            href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/CSS_FAQ"
-            target="_blank"
-            class="btn btn-link btn-lg btn-icon"
-          /> */}
-            <span>Learn more on the MDN docs</span>
-            <svg viewBox="0 0 20 20" fill="currentColor" class="ml-3">
-              <path
-                fill-rule="evenodd"
-                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-        
-          
-        </div>
       </section>
     </>
   );
