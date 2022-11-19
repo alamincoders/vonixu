@@ -1,8 +1,10 @@
 import Head from "next/head";
 import React from "react";
+import AboutAgency from "../components/Agency/AboutAgency";
 import AFullService from "../components/Agency/AFullService";
 import Banner from "../components/Agency/Banner";
 import Relationships from "../components/Agency/Relationships";
+import FreeSession from "../components/FreeSession";
 
 const agency = () => {
   return (
@@ -14,9 +16,11 @@ const agency = () => {
       </Head>
 
       <main className="relative pt-24">
-        <Banner/>
-        <AFullService/>
-        <Relationships/>
+        <Banner />
+        <AFullService />
+        <Relationships />
+        <AboutAgency />
+        <FreeSession />
       </main>
     </>
   );

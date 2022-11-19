@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React from "react";
-import Blog from "../components/Blog";
+import AskQuestions from "../components/FAQs/AskQuestions";
 
 const FAQs = () => {
   return (
@@ -12,7 +12,7 @@ const FAQs = () => {
       </Head>
 
       <main className="relative pt-24">
-        <h2>hello f a q s</h2>
+        <AskQuestions/>
       </main>
     </>
   );
