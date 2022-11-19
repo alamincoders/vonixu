@@ -1,5 +1,7 @@
 import Head from "next/head";
 import React from "react";
+import MeetOurTeam from "../components/OurTeam/MeetOurTeam";
+import TeamMember from "../components/TeamMember";
 
 const ourTeam = () => {
   return (
@@ -11,7 +13,8 @@ const ourTeam = () => {
       </Head>
 
       <main className="relative pt-24">
-        <h3>hello our team</h3>
+        <MeetOurTeam/>
+        <TeamMember/>
       </main>
     </>
   );
