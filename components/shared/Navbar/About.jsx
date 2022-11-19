@@ -49,17 +49,17 @@ const About = ({ open, setOpen }) => {
                         </Link>
                       </li>{" "}
                       <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
-                        <Link href="/team" className="hover:text-primary">
+                        <Link href="/ourTeam" className="hover:text-primary">
                           Our Team
                         </Link>
                       </li>
                       <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
-                        <Link href="/process" className="hover:text-primary">
+                        <Link href="/ourProcess" className="hover:text-primary">
                           Our Process
                         </Link>
                       </li>{" "}
                       <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
-                        <Link href="/faq" className="hover:text-primary">
+                        <Link href="/FAQs" className="hover:text-primary">
                           FAQs
                         </Link>
                       </li>
@@ -88,17 +88,17 @@ const About = ({ open, setOpen }) => {
                 </Link>
               </li>{" "}
               <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
-                <Link href="/team" className="hover:text-primary">
+                <Link href="/ourTeam" className="hover:text-primary">
                   Our Team
                 </Link>
               </li>
               <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
-                <Link href="/process" className="hover:text-primary">
+                <Link href="/ourProcess" className="hover:text-primary">
                   Our Process
                 </Link>
               </li>{" "}
               <li className="text-[15px] text-primary hover:text-[#fc8121] hover:translate-x-2 transition duration-300 text-gray-600 my-2.5">
-                <Link href="/faq" className="hover:text-primary">
+                <Link href="/FAQs" className="hover:text-primary">
                   FAQs
                 </Link>
               </li>

@@ -8,6 +8,7 @@ const FreeSession = () => {
       <div className="flex flex-col min-h-screen container ">
         <div className="container flex flex-col flex-1 p-6 mx-auto">
           <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
+            
             <div className="text-white lg:w-1/2 lg:mx-6">
               <h1 className="text-3xl font-semibold capitalize lg:text-5xl">Let Us Build Your Brand</h1>
 

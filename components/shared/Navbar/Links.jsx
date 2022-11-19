@@ -90,24 +90,25 @@ export const AboutLinks = [
     sublinks: [
       {
         Head: "Agency",
+        sublink: [{ name: "", link: "/agency" }],
       },
       {
         Head: "Our CEO ",
-        sublink: [{ name: "", link: "/" }],
+        sublink: [{ name: "", link: "/ceo" }],
       },
       {
         Head: "Our Team",
-        sublink: [{ name: "", link: "/" }],
+        sublink: [{ name: "", link: "/ourTeam" }],
       },
 
       {
         Head: "Our Process",
-        sublink: [{ name: "", link: "/" }],
+        sublink: [{ name: "", link: "/ourProcess" }],
       },
 
       {
         Head: "FAQs",
-        sublink: [{ name: "", link: "/" }],
+        sublink: [{ name: "", link: "/FAQs" }],
       },
     ],
   },

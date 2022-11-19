@@ -14,7 +14,7 @@ const TeamMember = () => {
           {" "}
           Every one of our team members is devoted to delivering the finest
           possible designs.{" "}
-        </p>
+        </p> 
 
         <div className="grid md:grid-cols-2 xl:grid-cols-4  gap-10 py-10">
           {TeamMemberData.map((team) => (
