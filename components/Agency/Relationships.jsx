@@ -12,7 +12,7 @@ const Relationships = () => {
             <Image className="rounded-lg" src={office} alt="" />
           </div>
           <div>
-            <p className="text-[18px] ">
+            <p className="text-[18px] font-normal ">
               We pursue relationships based on transparency, persistence, mutual
               trust, and integrity with our employees, customers and other
               business partners.
