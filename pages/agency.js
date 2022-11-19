@@ -2,6 +2,7 @@ import Head from "next/head";
 import React from "react";
 import AFullService from "../components/Agency/AFullService";
 import Banner from "../components/Agency/Banner";
+import Relationships from "../components/Agency/Relationships";
 
 const agency = () => {
   return (
@@ -15,6 +16,7 @@ const agency = () => {
       <main className="relative pt-24">
         <Banner/>
         <AFullService/>
+        <Relationships/>
       </main>
     </>
   );
