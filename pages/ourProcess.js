@@ -1,6 +1,8 @@
 import Head from "next/head";
 import React from "react";
 import Blog from "../components/Blog";
+import FreeSession from "../components/FreeSession";
+import OurProcess from "../components/OurProcess";
 
 const ourProcess = () => {
   return (
@@ -12,7 +14,10 @@ const ourProcess = () => {
       </Head>
 
       <main className="relative pt-24">
-        <h3>hello our process</h3>
+        <OurProcess />
+        <section className="mt-16">
+          <FreeSession />
+        </section>
       </main>
     </>
   );
