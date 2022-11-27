@@ -1,6 +1,7 @@
 import React from "react";
 
 const ServiceFAQ = ({
+  title,
   p,
 que1,
 que2,
@@ -31,7 +32,7 @@ ans12
     <>
       <section class="container py-16">
         <h1 class="text-2xl font-semibold lg:text-4xl text-primary text-center ">
-          Frequently asked questions
+          {title}
         </h1>
         <p className="mt-4 text-center text-[14.8px] " >
          {p}

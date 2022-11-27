@@ -51,6 +51,7 @@ We have a dedicated team for doing SEO audits, and they are experienced enough t
         p3=" Local search optimization focuses on increasing brand awareness and reputation through directory and citation building, positive online  review, and much more."
       />{" "}
       <ServiceFAQ
+        title="FAQ: SEO Audit Service"
         p="Many customers are sending us queries they need answers through emails. You should know that we care about the queries you send us because we are a client-oriented service provider. However, it is difficult for us to answer all the questions individually, so we decided to answer them here all at once. Check below the Q&A section to find answers to the most asked queries about our SEO audit service."
         que1="Why Do I Need An SEO Audit Service?"
         que2="What Does Your Website SEO Audit Service Will Cover?"
