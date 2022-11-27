@@ -52,6 +52,13 @@ Call us at the given no. or fill up the form and send us your requirement. One o
         p3=" Local search optimization focuses on increasing brand awareness and reputation through directory and citation building, positive online  review, and much more."
       />{" "}
       <ServiceFAQ
+        p=" SEO services are the most familiar service in the digital marketing
+          industry. Business owners are always searching for the best SEO
+          services. Regardless, we also are getting massive emails that contain
+          queries that must be answered. It is impossible to answer them
+          individually, but to ease the problem, we have developed a Q&A section
+          for answering those questions. Let’s check them out and find answers
+          to those you are searching for as well"
         que1="What is a Vonixu SEO Service?"
         que2="Is There a Minimum Term Contract?"
         que3="Will You Do Keyword Research for My Website?"
