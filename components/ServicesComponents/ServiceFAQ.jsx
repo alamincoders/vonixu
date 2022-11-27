@@ -32,6 +32,15 @@ ans12
         <h1 class="text-2xl font-semibold lg:text-4xl text-primary text-center ">
           Frequently asked questions
         </h1>
+        <p className="mt-4 text-center text-[14.8px] " >
+          SEO services are the most familiar service in the digital marketing
+          industry. Business owners are always searching for the best SEO
+          services. Regardless, we also are getting massive emails that contain
+          queries that must be answered. It is impossible to answer them
+          individually, but to ease the problem, we have developed a Q&A section
+          for answering those questions. Let’s check them out and find answers
+          to those you are searching for as well
+        </p>
 
         <div class="grid grid-cols-1 gap-8 mt-8 lg:mt-16  md:grid-cols-2">
           <div>
