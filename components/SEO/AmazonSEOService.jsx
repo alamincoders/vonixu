@@ -42,11 +42,6 @@ after researching many hours.
       <WhatSEO
         img={seo}
         title="What is Affordable Local SEO?"
-        p1="Local SEO, also referred to as local search, is a marketing strategy aimed to get your website seen in the top 10 organic positions on Google  when customers near you search for your products online."
-        p2=" Like traditional SEO, it focuses on increasing search engine rankings, but focuses on local keywords. There are two places to do this—Local Map Pack and Google SERPs (search engine results page)."
-        p3=" Local SEO is essential for achieving strong brand awareness in local communities. It can help businesses find potential customers and increase their book of business."
-      />
-      <SEOBenefits
         p1="We have a few best product listing optimization teams and product description writing teams working at Vonixu for many years.
 
 They have enough knowledge of Amazon product optimization, and they know how the Amazon search engine is working.
@@ -60,7 +55,17 @@ If you are trying to get more sales, then our team can help you.
 If you are serious about increasing sales and revenue to your business, call us directly to  (Phone Number)
 Additionally, if you want to get a free quote for your project, send us a query to  (Email)
 "
+      />
+      <SEOBenefits
+        title1="Affordable Local SEO Services Benefits "
+        title2="Capture Low Hanging Fruit"
+        title3="Attract Targeted Customers"
+        title4=" Increase Brand Recognition"
+        p1="Local SEO keywords typically have lower competition compared to keywords with a national scope. Local SEO can capture quick wins driving  customers to your local business."
+        p2="To capture targeted customers, you need high-intent keywords. Local search can help bring in relevant leads and sales both in-store and online. "
+        p3=" Local search optimization focuses on increasing brand awareness and reputation through directory and citation building, positive online  review, and much more."
       />{" "}
+     
       <ServiceFAQ
         title="Amazon SEO Services for Product Listing Optimization"
         p="Amazon sellers are finding solutions for increasing their sales to generate more revenue. We are receiving many queries from them about our service details so that they can understand how we can improve their sales.
