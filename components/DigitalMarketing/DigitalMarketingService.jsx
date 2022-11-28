@@ -6,8 +6,6 @@ import WhatSEO from "../ServicesComponents/WhatSEO";
 import SEOBenefits from "../ServicesComponents/SEOBenefits";
 
 import seo from "../../assets/services/whatseo.png";
-
-import bImg from "../../assets/services/local.webp";
 import Banner from "../ServicesComponents/Banner";
 import ServiceFAQ from "../ServicesComponents/ServiceFAQ";
 
