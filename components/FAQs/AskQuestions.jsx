@@ -43,9 +43,6 @@ const AskQuestions = () => {
             <p class="text-gray-600">With web access on mobile devices being so popular, and popular platforms such as iOS and Android.</p>
           </div>
         </div>
-        <div class="mt-16 text-center">
-          <span>Learn more to contact us</span>
-        </div>
       </section>
     </>
   );
