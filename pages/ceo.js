@@ -1,6 +1,5 @@
 import Head from "next/head";
 import React from "react";
-import Banner from "../components/CEO/banner";
 import Entrepreneur from "../components/CEO/Entrepreneur";
 import Established from "../components/CEO/Established";
 import Experience from "../components/CEO/Experience";
@@ -10,7 +9,7 @@ import SeoExpert from "../components/CEO/SeoExpert";
 import SeoFun from "../components/CEO/SeoFun";
 import StartedVonixu from "../components/CEO/StartedVonixu";
 import FreeSession from "../components/FreeSession";
-
+import CeoBanner from "../components/CeoBanner";
 
 const ceo = () => {
   return (
@@ -22,16 +21,19 @@ const ceo = () => {
       </Head>
 
       <main className="relative pt-24">
-        <Banner/>
-        <SeoFun/>
-        <Experience/>
-        <Entrepreneur/>
-        <SeoExpert/> 
-        <FreelancingCareer/>
-        <Established/>
-        <StartedVonixu/>
-        <FoundedSeoViser/>
-        <FreeSession/>
+        <CeoBanner />
+        <div className="py-12 container">
+          <div className="bg-cover seminar cursor-pointer bg-center bg-no-repeat"></div>
+        </div>
+        <SeoFun />
+        <Experience />
+        <Entrepreneur />
+        <SeoExpert />
+        <FreelancingCareer />
+        <Established />
+        <StartedVonixu />
+        <FoundedSeoViser />
+        <FreeSession />
       </main>
     </>
   );
