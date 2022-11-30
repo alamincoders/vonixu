@@ -6,8 +6,6 @@ import WhatSEO from "../ServicesComponents/WhatSEO";
 import SEOBenefits from "../ServicesComponents/SEOBenefits";
 
 import seo from "../../assets/services/whatseo.png";
-
-import bImg from "../../assets/services/local.webp";
 import Banner from "../ServicesComponents/Banner";
 import ServiceFAQ from "../ServicesComponents/ServiceFAQ";
 
@@ -21,9 +19,11 @@ const SocialMediaManagement = () => {
 
 If you want to bring leads and improve your branding, then social media is the best option for you to emphasize.
 "
-        p2="Vonixu has the most detailed experience of serving social media marketing and management services to different companies. Now, we have taken our service offers to a level where our clients are getting maximum profits from our services."
-        p3="We have earned millions of revenue for our clients through our social media management services.
+        p2="Vonixu has the most detailed experience of serving social media marketing and management services to different companies. Now, we have taken our service offers to a level where our clients are getting maximum profits from our services.
+
+We have earned millions of revenue for our clients through our social media management services.
 "
+        p3="Well, people are using social media not only for fun but also for getting information about products they want to buy soon. On the other hand, business owners are using it as an opportunity to reach their customers."
       />
       <OverPercent
         title1="Over 50%"
@@ -35,18 +35,15 @@ If you want to bring leads and improve your branding, then social media is the b
       />
       <WhatSEO
         img={seo}
-        p1="Well, people are using social media not only for fun but also for getting information about products they want to buy soon. On the other hand, business owners are using it as an opportunity to reach their customers.
+        p1="Social media platforms are also working as a useful medium to present products or services so that customers can see them and visit the official website to make the purchase.
 
-Social media platforms are also working as a useful medium to present products or services so that customers can see them and visit the official website to make the purchase.
+Our social media management service will make your social profiles professional that people will rely on and love to engage with
 "
-        p2=" Our social media management service will make your social profiles professional that people will rely on and love to engage with. Our social media experts will sit back on your profiles and manage it accordingly with their expertise that actually works on the growth of brand impression.
+        p2="Our social media experts will sit back on your profiles and manage it accordingly with their expertise that actually works on the growth of brand impression.
 
 If your social media profiles are not working as you want it to be, call us to the given numbers or reach us at (Gmail) .
 "
-        p3="If your social media profiles are not working as you want it to be, call us to the given numbers or reach us at (Gmail) .
-
-Our expert team will be in touch with you, and you will get an opportunity to discuss your problems. You will get the best recommendation about how you can get what you desire from your social media profiles.
-"
+        p3=" Our expert team will be in touch with you, and you will get an opportunity to discuss your problems. You will get the best recommendation about how you can get what you desire from your social media profiles."
       />
       <SEOBenefits
         title1="Affordable Local SEO Services Benefits "
@@ -68,16 +65,14 @@ Our expert team will be in touch with you, and you will get an opportunity to di
         que6="How Many Social Media Platforms Does Your Service Cover?"
         que7="Do You Manage Advertisements on Social Media Platforms?"
         que8="Will You Provide Me a Detailed Report?"
-        que9="Do You Work on Long-term Projects?"
+        que9="Do You Work on Long-term Projects?gzxe3sz"
+        z
         ans1="As long as your customers use social media to share their feelings and communicate with their friends & families, social media marketing will work for your business. Our experts will work on your social profile and decorate it with valuable & engaging information that your fans will love."
         ans2="Yes, our social media management service will surely get you more leads. However, not only reach potential people but also drive them to your website who are thriving to buy the products or services you are providing. We will develop the winning strategy for your project and respond to messages in the inbox to build a better relationship with them."
-        ans3="If we want to show you the reasons why you should choose us for managing your social media profiles, then we can share hundreds of clients’ reviews. Our clients are leaving the highest ratings for our services. Here are a few of them below.
-
-We are experienced in working with big companies.
+        ans3="If we want to show you the reasons why you should choose us for managing your social media profiles, then we can share hundreds of clients’ reviews. Our clients are leaving the highest ratings for our services. Here are a few of them below.We are experienced in working with big companies.
 We do not outsource our services because we have several social media expert team for dedicatedly working on your projects.
 Our strategy is award-winning and works astonishingly well for generating revenue through social media marketing.
-You will get the most affordable social media management services from Vonixu. 
-"
+You will get the most affordable social media management services from Vonixu. "
         ans4="Most people are using social media daily, and they are purchasing their desired products and services from different companies on those platforms. If you can build an authoritative profile that people find trustworthy, then potential customers who visit your social profile will see you reputable. They will engage with your social media content more frequently, and it will improve your brand reputation as well as recognition. Our social media management service will make sure that your social profiles are updated, and we will publish fresh content regularly. Our service will work closely on building the reputation of your business through different steps that are needed."
         ans5="Well, it depends on how much work we have to do on your social profile. However, most of our clients have seen their growth after working on their profiles for 30 days. You may see your result before 30-days, or it would take more days due to issues with your profile. However, we ensure that you will see growth and sales through our service, and it's 100% guaranteed."
         ans6="Typically, our clients have social profiles on most popular social media platforms such as Facebook, Instagram, Twitter, Linkedin, etc. However, if you want to add more social accounts, contact us for an initial discussion with our experts. They will give you everything you need to include within your package. We have a customized package option for you, no need to worry about it."
