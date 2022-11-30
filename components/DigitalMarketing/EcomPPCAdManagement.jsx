@@ -16,7 +16,7 @@ const EcomPPCAdManagement = () => {
       <Banner title="Achieve More Revenue from Paid Ads by Investing Less" />
       <SeoFormBanner
         title="Drive Traffic, Get More Orders, and Generate Sales with eCommerce PPC Ad Management"
-        p1="PPC or Pay per click is a marketing method where the adversaries pay an amount of money to the ad publisher each time the ad is clicked. And e-Commerce PPC management is an ongoing process of managing and supervising an e-Commerce company’s PPC strategies and expenditure of the ad campaign."
+        p1="PPC or Pay per click is a marketing method where the adversaries pay an amount of money to the ad publisher each time the ad is clicked. And e-Commerce PPC management is an ongoing process of managing and supervising an e-Commerce company’s PPC strategies and expenditure of the ad campaign." 
         p2="For the speedy growth of digital marketing, most small to medium businesses or SMBs are investing in PPC advertising. Your company requires a defined and working strategy, especially when it comes to the area of e-Commerce.
 
 Having a smart eCommerce PPC management with successful strategies can be a bit challenging. You will need time, resources, and experts.
